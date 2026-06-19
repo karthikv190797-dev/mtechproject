@@ -1,0 +1,53 @@
+# Hybrid Retriever Configuration
+# Combines BM25 sparse retrieval with FAISS dense retrieval
+
+hybrid_retriever:
+  algorithm: "Hybrid (BM25 + FAISS)"
+  description: "Combines keyword and semantic similarity for best of both worlds"
+  
+  components:
+    sparse:
+      type: "BM25"
+      weight: 0.3        # alpha - weight for BM25 scores
+      config: "bm25_config.yaml"
+    
+    dense:
+      type: "FAISS"
+      weight: 0.7        # beta - weight for FAISS/semantic scores
+      embedding_model: "all-MiniLM-L6-v2"
+      metric: "L2"       # Euclidean distance
+      config_source: "models/embeddings/all-MiniLM-L6-v2"
+  
+  search:
+    top_k: 5             # Number of final results to return
+    rerank: true         # Apply reranking to final results
+    threshold: 0.0       # Minimum combined score threshold
+    normalize_scores: true  # Normalize BM25 and FAISS scores before combining
+  
+  weighting:
+    alpha: 0.7           # Weight for FAISS semantic similarity
+    beta: 0.3            # Weight for BM25 keyword matching
+    fusion_method: "sum" # How to combine scores (sum, max, reciprocal_rank, etc.)
+  
+  performance:
+    memory_efficient: false  # Requires FAISS index in memory
+    speed: "fast"
+    accuracy: "very_high"
+    best_for: ["general_search", "financial_data", "semantic_queries"]
+
+# Use in code:
+# from src.retrieval.hybrid_retriever import HybridRetriever
+# retriever = HybridRetriever(documents, embeddings, k=5, alpha=0.7, beta=0.3)
+# results = retriever.search(query)
+
+# Configuration tuning:
+# - Increase alpha (e.g., 0.8) for more semantic emphasis
+# - Increase beta (e.g., 0.5) for more keyword matching
+# - Adjust top_k based on document corpus size and desired recall
+
+defaults:
+  alpha: 0.7
+  beta: 0.3
+  top_k: 5
+  k_dense: 10          # Internal k for FAISS before reranking
+  k_sparse: 10         # Internal k for BM25 before reranking

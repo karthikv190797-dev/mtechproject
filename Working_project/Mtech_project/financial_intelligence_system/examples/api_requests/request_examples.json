@@ -1,0 +1,102 @@
+# API Request Examples as JSON Files
+# Use with curl: curl -X POST http://localhost:8000/query -d @request.json
+
+# File: simple_query.json
+{
+  "query": "What was Tesla's revenue growth rate in 2023?",
+  "parameters": {
+    "max_corrections": 3,
+    "evaluation_threshold": 0.7
+  }
+}
+
+---
+
+# File: advanced_query.json
+{
+  "query": "Analyze the decline in Tesla's gross margin and its implications",
+  "parameters": {
+    "retrieval_method": "hybrid",
+    "retrieval_top_k": 5,
+    "reasoning_model": "distilled",
+    "evaluation_threshold": 0.8,
+    "max_corrections": 3,
+    "return_supporting_docs": true,
+    "explain_reasoning": true
+  }
+}
+
+---
+
+# File: batch_queries.json
+{
+  "queries": [
+    "What was Tesla's total revenue in 2023?",
+    "Why did Tesla's gross margin decline from 27.1% to 15.5%?",
+    "What are the key risk factors in Tesla's 10-K filing?",
+    "Compare Apple's revenue growth with Microsoft's growth rate",
+    "What is Microsoft's strategy regarding artificial intelligence investment?",
+    "How is AI investment impacting Azure growth rates?",
+    "What cash flow metrics are provided for the three companies?",
+    "What are the forward guidance expectations for each company?"
+  ],
+  "batch_id": "comprehensive_analysis_001",
+  "max_parallel_processing": 4
+}
+
+---
+
+# File: comparison_query.json
+{
+  "query": "Compare the profitability and growth metrics of Tesla, Apple, and Microsoft",
+  "parameters": {
+    "retrieval_method": "semantic",
+    "retrieval_top_k": 10,
+    "evaluation_threshold": 0.8,
+    "max_corrections": 2
+  }
+}
+
+---
+
+# File: risk_analysis_query.json
+{
+  "query": "What are the major risks and challenges mentioned by these technology companies?",
+  "parameters": {
+    "retrieval_method": "keyword",
+    "evaluation_threshold": 0.75,
+    "max_corrections": 2,
+    "return_supporting_docs": true
+  }
+}
+
+---
+
+# Usage Examples:
+
+# 1. Simple query
+curl -X POST http://localhost:8000/query \
+  -H "Content-Type: application/json" \
+  -d @simple_query.json
+
+# 2. Advanced query with pretty output
+curl -s -X POST http://localhost:8000/query \
+  -H "Content-Type: application/json" \
+  -d @advanced_query.json | jq .
+
+# 3. Batch processing
+curl -s -X POST http://localhost:8000/batch \
+  -H "Content-Type: application/json" \
+  -d @batch_queries.json | jq .
+
+# 4. Save response to file
+curl -s -X POST http://localhost:8000/query \
+  -H "Content-Type: application/json" \
+  -d @comparison_query.json > response.json
+
+# 5. With custom headers and timeout
+curl -X POST http://localhost:8000/query \
+  -H "Content-Type: application/json" \
+  -H "X-Request-ID: custom-id-123" \
+  --max-time 30 \
+  -d @advanced_query.json

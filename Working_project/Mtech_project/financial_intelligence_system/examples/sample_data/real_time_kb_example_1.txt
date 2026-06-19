@@ -1,0 +1,21 @@
+================================================================================
+REAL-TIME KNOWLEDGE BASE EXAMPLE DOCUMENT 1
+================================================================================
+
+Title: Market News Flash - Tesla Announces New Gigafactory
+Timestamp: 2026-05-26T09:15:00Z
+Source: Reuters
+
+Tesla, Inc. announced the construction of a new Gigafactory in India, expected to increase global production capacity by 15% over the next two years. The announcement was made during a press conference in Mumbai, with CEO Elon Musk highlighting the strategic importance of the Indian market for Tesla's long-term growth.
+
+Key Points:
+- New Gigafactory location: Mumbai, India
+- Expected operational date: Q4 2027
+- Projected increase in global capacity: 15%
+- Investment: $3.2 billion
+- Local job creation: 8,000+ positions
+
+Market Impact:
+Tesla shares rose 3% in pre-market trading following the announcement. Analysts expect the move to strengthen Tesla's supply chain in Asia and reduce logistics costs for the region.
+
+================================================================================

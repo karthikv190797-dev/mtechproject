@@ -1,0 +1,136 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-06-18",
+  "metadata": {
+    "total_models": 5,
+    "categories": ["embeddings", "reasoning", "retrievers"]
+  },
+  "embeddings": {
+    "all-MiniLM-L6-v2": {
+      "id": "all-MiniLM-L6-v2",
+      "name": "Sentence Transformers - MiniLM-L6-v2",
+      "model_name": "all-MiniLM-L6-v2",
+      "provider": "sentence-transformers",
+      "version": "5.6.0",
+      "description": "Lightweight sentence embedding model optimized for semantic similarity",
+      "dimensions": 384,
+      "size_mb": 90,
+      "local_path": "models/embeddings/all-MiniLM-L6-v2",
+      "huggingface_repo": "sentence-transformers/all-MiniLM-L6-v2",
+      "status": "ready",
+      "use_cases": ["semantic_retrieval", "similarity_search", "clustering"],
+      "performance": {
+        "inference_speed": "fast",
+        "accuracy": "high",
+        "memory_efficient": true
+      },
+      "downloaded": true,
+      "cache_location": "~/.cache/huggingface/hub/models--sentence-transformers--all-MiniLM-L6-v2"
+    }
+  },
+  "reasoning": {
+    "teacher_model": {
+      "id": "teacher_v1",
+      "name": "Teacher Model for Reasoning",
+      "model_type": "teacher",
+      "description": "Larger, more accurate reasoning model for knowledge distillation",
+      "architecture": "transformer-based",
+      "local_path": "models/reasoning/teacher_model",
+      "config_file": "models/reasoning/teacher_model/config.yaml",
+      "weights_file": "models/reasoning/teacher_model/weights.pt",
+      "status": "placeholder",
+      "parameters": "unknown",
+      "framework": "PyTorch",
+      "note": "Configure with your preferred LLM backend (ollama, huggingface, openai)"
+    },
+    "student_model": {
+      "id": "student_v1",
+      "name": "Student Model for Reasoning",
+      "model_type": "student",
+      "description": "Lightweight reasoning model optimized for inference speed",
+      "architecture": "transformer-based",
+      "local_path": "models/reasoning/student_model",
+      "config_file": "models/reasoning/student_model/config.yaml",
+      "weights_file": "models/reasoning/student_model/weights.pt",
+      "status": "placeholder",
+      "parameters": "unknown",
+      "framework": "PyTorch",
+      "note": "Fine-tuned on teacher model outputs via knowledge distillation"
+    }
+  },
+  "retrievers": {
+    "bm25": {
+      "id": "bm25_retriever",
+      "name": "BM25 Keyword Retriever",
+      "model_type": "sparse_retriever",
+      "description": "Keyword-based sparse retrieval using BM25 algorithm",
+      "algorithm": "BM25F",
+      "status": "ready",
+      "config_file": "models/retrievers/bm25_config.json",
+      "parameters": {
+        "k1": 1.5,
+        "b": 0.75
+      }
+    },
+    "faiss": {
+      "id": "faiss_retriever",
+      "name": "FAISS Dense Retriever",
+      "model_type": "dense_retriever",
+      "description": "Vector-based dense retrieval using Facebook AI Similarity Search",
+      "algorithm": "FAISS (IndexFlatL2)",
+      "status": "active",
+      "config_file": "models/retrievers/hybrid_retriever_config.yaml",
+      "embedding_model": "all-MiniLM-L6-v2",
+      "index_location": "models/embeddings/all-MiniLM-L6-v2/index.faiss",
+      "index_created": false,
+      "parameters": {
+        "metric": "L2",
+        "nprobe": 10
+      }
+    },
+    "hybrid": {
+      "id": "hybrid_retriever",
+      "name": "Hybrid Retriever",
+      "model_type": "hybrid_retriever",
+      "description": "Combines BM25 sparse and FAISS dense retrieval with learned weights",
+      "alpha": 0.7,
+      "beta": 0.3,
+      "status": "ready",
+      "config_file": "models/retrievers/hybrid_retriever_config.yaml",
+      "components": ["bm25", "faiss"]
+    }
+  },
+  "indices": {
+    "faiss_all_minilm": {
+      "id": "index_all_minilm",
+      "name": "FAISS Index - All Documents (MiniLM)",
+      "embedding_model": "all-MiniLM-L6-v2",
+      "index_type": "IndexFlatL2",
+      "vector_dimension": 384,
+      "num_vectors": 0,
+      "status": "not_created",
+      "location": "models/embeddings/all-MiniLM-L6-v2/index.faiss",
+      "metadata_location": "models/embeddings/all-MiniLM-L6-v2/metadata.json",
+      "note": "Run create_faiss_index.py to generate this index from knowledge base documents"
+    }
+  },
+  "checkpoints": {
+    "training": {
+      "location": "models/checkpoints/training_logs",
+      "contents": "Training logs, metrics, and intermediate checkpoints"
+    },
+    "best_models": {
+      "location": "models/checkpoints/best_models",
+      "contents": "Best model weights from training/finetuning runs"
+    },
+    "fine_tuned": {
+      "location": "models/checkpoints/fine_tuned_embeddings",
+      "contents": "Fine-tuned embedding models for domain-specific tasks"
+    }
+  },
+  "defaults": {
+    "embedding_model": "all-MiniLM-L6-v2",
+    "retriever_type": "hybrid",
+    "reasoning_model": "teacher_v1"
+  }
+}

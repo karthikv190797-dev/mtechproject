@@ -1,0 +1,61 @@
+# Teacher Model Configuration for Financial Reasoning
+
+model:
+  type: "teacher"
+  name: "financial-teacher-v1"
+  description: "Teacher model for knowledge distillation in financial reasoning"
+  framework: "transformers"  # or "ollama", "openai", etc.
+
+# Configure your preferred backend
+backend:
+  type: "ollama"           # Options: ollama, openai, huggingface, local
+  endpoint: "http://localhost:11434"
+  model: "mistral:latest"  # Or any other model
+  
+  # For OpenAI:
+  # type: "openai"
+  # api_key: "${OPENAI_API_KEY}"
+  # model: "gpt-4"
+  
+  # For Local PyTorch:
+  # type: "local"
+  # model_path: "path/to/model"
+  # weights_path: "model_weights.pt"
+
+inference:
+  temperature: 0.3         # Lower for more deterministic reasoning
+  top_p: 0.95
+  max_tokens: 1024
+  max_length: 2048
+  do_sample: true
+  num_beams: 1
+
+reasoning:
+  reasoning_strategy: "chain_of_thought"  # chain_of_thought, tree_of_thought, etc.
+  include_confidence: true
+  return_intermediate_steps: true
+
+financial_domain:
+  # Domain-specific parameters for financial analysis
+  focus_areas:
+    - revenue_analysis
+    - risk_assessment
+    - financial_statements
+    - market_analysis
+  
+  context_requirements:
+    - minimum_context_length: 500
+    - require_document_source: true
+
+# Training configuration (if fine-tuning)
+training:
+  learning_rate: 2e-5
+  batch_size: 32
+  epochs: 1
+  warm_up_steps: 500
+  weight_decay: 0.01
+  gradient_accumulation_steps: 1
+
+# Status
+status: "placeholder"
+note: "Configure with your preferred backend (Ollama, OpenAI, etc.) before use"

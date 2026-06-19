@@ -1,0 +1,93 @@
+================================================================================
+SAMPLE BATCH QUERIES
+Query file for batch processing with the Financial Intelligence System
+================================================================================
+
+[
+  {
+    "query_id": "batch_001",
+    "query": "What was Tesla's total revenue in 2023 and how does it compare to 2022?",
+    "priority": "high",
+    "context": "Analyzing Tesla's revenue growth trends"
+  },
+  {
+    "query_id": "batch_002",
+    "query": "Explain the decline in Tesla's gross margin from 27.1% in 2022 to 15.5% in 2023",
+    "priority": "high",
+    "context": "Understanding profitability compression factors"
+  },
+  {
+    "query_id": "batch_003",
+    "query": "What are the key risk factors mentioned in Tesla's 10-K filing?",
+    "priority": "medium",
+    "context": "Risk assessment for investment decision"
+  },
+  {
+    "query_id": "batch_004",
+    "query": "Compare Apple's revenue growth rate with Microsoft's revenue growth rate",
+    "priority": "high",
+    "context": "Competitive performance analysis"
+  },
+  {
+    "query_id": "batch_005",
+    "query": "What is Apple's gross margin and how has it changed from prior year?",
+    "priority": "medium",
+    "context": "Profitability metrics analysis"
+  },
+  {
+    "query_id": "batch_006",
+    "query": "Which geographic region showed the highest growth rate for Apple?",
+    "priority": "medium",
+    "context": "Geographic performance analysis"
+  },
+  {
+    "query_id": "batch_007",
+    "query": "What is Microsoft's strategy regarding artificial intelligence investment?",
+    "priority": "high",
+    "context": "Strategic initiative identification"
+  },
+  {
+    "query_id": "batch_008",
+    "query": "How is Microsoft's AI investment impacting Azure growth rates?",
+    "priority": "high",
+    "context": "AI-driven revenue impact analysis"
+  },
+  {
+    "query_id": "batch_009",
+    "query": "What cash flow metrics are provided for the three companies?",
+    "priority": "medium",
+    "context": "Cash generation capability assessment"
+  },
+  {
+    "query_id": "batch_010",
+    "query": "What are the forward guidance and expectations for Q3/Q2 for each company?",
+    "priority": "high",
+    "context": "Future performance expectations"
+  }
+]
+
+================================================================================
+SAMPLE QUERY RESPONSES
+================================================================================
+
+Expected analytical output format:
+
+{
+  "query_id": "batch_001",
+  "query": "What was Tesla's total revenue in 2023 and how does it compare to 2022?",
+  "answer": "Tesla's total revenue in 2023 was $81.46 billion, representing a 34.5% increase from $60.57 billion in 2022. This substantial growth reflects strong demand for electric vehicles and expanded production capacity across all manufacturing facilities.",
+  "confidence_score": 0.92,
+  "evaluation_scores": {
+    "relevance": 0.95,
+    "factual_consistency": 0.90,
+    "numerical_coherence": 0.95,
+    "entailment": 0.88
+  },
+  "supporting_documents": [
+    "SEC FILING - 10-K ANNUAL REPORT: TESLA, INC."
+  ],
+  "corrections_applied": 0,
+  "processing_time_ms": 342
+}
+
+================================================================================

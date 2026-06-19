@@ -1,0 +1,104 @@
+{
+  "title": "Financial Intelligence Analysis Report",
+  "workflow_id": "workflow_20260526_082319",
+  "timestamp": "2026-05-26T08:23:22.473555",
+  "summary": {
+    "total_queries": 5,
+    "evaluation_metrics": {
+      "total_results": 5,
+      "average_confidence": 0.0,
+      "high_confidence_count": 0,
+      "high_confidence_pct": 0.0,
+      "average_corrections": 0.0
+    },
+    "categories": {
+      "comparative_analysis": 1,
+      "root_cause_analysis": 1,
+      "trend_analysis": 1,
+      "financial_metrics": 1,
+      "forward_looking": 1
+    }
+  },
+  "detailed_results": [
+    {
+      "query_id": "comp_revenue",
+      "category": "comparative_analysis",
+      "query": "Compare the revenue figures for Tesla, Apple, and Microsoft",
+      "answer": "Based on the financial documents, the answer to 'Compare the revenue figures for Tesla, Apple, and Microsoft' is: The financial analysis indicates strong fundamentals with...",
+      "confidence": null,
+      "evaluation_scores": {
+        "relevance": 0.5,
+        "factual_consistency": 0.5,
+        "numerical_coherence": 0.8,
+        "entailment": 0.5,
+        "overall_confidence": 0.56,
+        "verification_score": 0.25
+      },
+      "corrections_applied": 0
+    },
+    {
+      "query_id": "tesla_margin",
+      "category": "root_cause_analysis",
+      "query": "Explain the factors behind Tesla's margin compression",
+      "answer": "Based on the financial documents, the answer to 'Explain the factors behind Tesla's margin compression' is: The financial analysis indicates strong fundamentals with...",
+      "confidence": null,
+      "evaluation_scores": {
+        "relevance": 0.5,
+        "factual_consistency": 0.5,
+        "numerical_coherence": 0.8,
+        "entailment": 0.5,
+        "overall_confidence": 0.56,
+        "verification_score": 0.25
+      },
+      "corrections_applied": 0
+    },
+    {
+      "query_id": "growth_drivers",
+      "category": "trend_analysis",
+      "query": "What are the key growth drivers for each company?",
+      "answer": "Based on the financial documents, the answer to 'What are the key growth drivers for each company?' is: The financial analysis indicates strong fundamentals with...",
+      "confidence": null,
+      "evaluation_scores": {
+        "relevance": 0.5,
+        "factual_consistency": 0.5,
+        "numerical_coherence": 0.8,
+        "entailment": 0.5,
+        "overall_confidence": 0.56,
+        "verification_score": 0.25
+      },
+      "corrections_applied": 0
+    },
+    {
+      "query_id": "profitability",
+      "category": "financial_metrics",
+      "query": "How do the profitability metrics compare across companies?",
+      "answer": "Based on the financial documents, the answer to 'How do the profitability metrics compare across companies?' is: The financial analysis indicates strong fundamentals with...",
+      "confidence": null,
+      "evaluation_scores": {
+        "relevance": 0.5,
+        "factual_consistency": 0.5,
+        "numerical_coherence": 0.8,
+        "entailment": 0.5,
+        "overall_confidence": 0.56,
+        "verification_score": 0.25
+      },
+      "corrections_applied": 0
+    },
+    {
+      "query_id": "future_outlook",
+      "category": "forward_looking",
+      "query": "What are the growth prospects for these technology companies?",
+      "answer": "Based on the financial documents, the answer to 'What are the growth prospects for these technology companies?' is: The financial analysis indicates strong fundamentals with...",
+      "confidence": null,
+      "evaluation_scores": {
+        "relevance": 0.5,
+        "factual_consistency": 0.5,
+        "numerical_coherence": 0.8,
+        "entailment": 0.5,
+        "overall_confidence": 0.56,
+        "verification_score": 0.25
+      },
+      "corrections_applied": 0
+    }
+  ]
+}

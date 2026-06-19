@@ -1,0 +1,20 @@
+================================================================================
+REAL-TIME KNOWLEDGE BASE EXAMPLE DOCUMENT 3
+================================================================================
+
+Title: Microsoft Azure AI Achieves Record Cloud Adoption
+Timestamp: 2026-05-26T11:30:00Z
+Source: CNBC
+
+Microsoft announced that Azure AI services have reached a record 40% year-over-year growth in enterprise cloud adoption. The company attributes this surge to new generative AI offerings and expanded partnerships with Fortune 500 firms.
+
+Highlights:
+- Azure AI enterprise adoption up 40% YoY
+- New generative AI models available for business customers
+- Strategic partnerships with 25 new Fortune 500 companies
+- Enhanced security and compliance features
+
+Market Response:
+Microsoft stock climbed 2.5% in early trading. Industry experts say this cements Microsoft's leadership in the enterprise AI cloud market.
+
+================================================================================

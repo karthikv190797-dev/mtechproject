@@ -1,0 +1,97 @@
+{
+  "metadata": {
+    "total_documents": 6,
+    "total_characters": 11647,
+    "documents_by_type": {
+      "filing": 6
+    },
+    "document_list": [
+      {
+        "id": "doc_0000",
+        "filename": "financial_report_sample.txt",
+        "type": "filing",
+        "size_chars": 2637
+      },
+      {
+        "id": "doc_0001",
+        "filename": "real_time_kb_example_1.txt",
+        "type": "filing",
+        "size_chars": 1119
+      },
+      {
+        "id": "doc_0002",
+        "filename": "real_time_kb_example_3.txt",
+        "type": "filing",
+        "size_chars": 1003
+      },
+      {
+        "id": "doc_0003",
+        "filename": "real_time_kb_example_2.txt",
+        "type": "filing",
+        "size_chars": 1050
+      },
+      {
+        "id": "doc_0004",
+        "filename": "earnings_call_summary.txt",
+        "type": "filing",
+        "size_chars": 3266
+      },
+      {
+        "id": "doc_0005",
+        "filename": "sec_filing_sample.txt",
+        "type": "filing",
+        "size_chars": 2572
+      }
+    ]
+  },
+  "documents": [
+    {
+      "id": "doc_0000",
+      "filename": "financial_report_sample.txt",
+      "type": "filing",
+      "content": "================================================================================\nQUARTERLY FINANCIAL REPORT\nAPPLE INC.\nQ1 2024 (Quarter Ended December 30, 2023)\n================================================================================\n\nEXECUTIVE SUMMARY\n\nApple delivered strong financial results in Q1 2024 with net revenue of $119.6\nbillion, representing 11.2% growth year-over-year. All five geographic segments\nshowed growth, with double-digit growth in Americas and Japan.\n\nREVENUE BY SEGMENT (Q1 2024):\n\niPhone Revenue:         $69.8B (+1.1% YoY)\nMac Revenue:            $7.7B (-2.3% YoY)\niPad Revenue:           $6.5B (+4.7% YoY)\nWearables Revenue:      $13.1B (+9.7% YoY)\nServices Revenue:       $22.5B (+13.9% YoY)\n\nTOTAL NET REVENUE:      $119.6B (+11.2% YoY)\n\nPROFITABILITY METRICS:\n\nGross Margin:           46.2% (vs 44.3% prior year)\nOperating Margin:       30.7% (vs 28.1% prior year)\nNet Income:             $29.9B\nEarnings Per Share:     $1.94 (basic), $1.93 (diluted)\n\nGEOGRAPHIC BREAKDOWN (Net Revenue):\n\nAmericas:               $59.2B (+12.3% YoY)\nEurope:                 $28.3B (+5.8% YoY)\nJapan:                  $8.6B (+18.5% YoY)\nChina:                  $16.2B (0.8% YoY)\nRest of Asia Pacific:   $7.3B (7.2% YoY)\n\nBALANCE SHEET HIGHLIGHTS (as of December 30, 2023):\n\nCash and Cash Equivalents:    $29.2B\nAvailable-for-Sale Securities: $31.5B\nTotal Current Assets:         $135.4B\nTotal Assets:                 $365.9B\nTotal Liabilities:            $128.3B\nTotal Shareholders' Equity:   $237.6B\n\nCASH FLOW ANALYSIS (Twelve Months Ended December 30, 2023):\n\nOperating Cash Flow:     $110.5B\nCapital Expenditures:    ($11.2B)\nFree Cash Flow:          $99.3B\n\nANALYSIS AND INSIGHTS:\n\n1. Services Growth Acceleration\n   Services revenue growth of 13.9% demonstrates the success of our\n   ecosystem expansion and customer engagement initiatives.\n\n2. Margin Expansion\n   Gross margin expansion of 190 basis points reflects improved product mix,\n   manufacturing efficiency, and favorable foreign exchange rates.\n\n3. iPhone Stability\n   While iPhone grew modestly by 1.1%, the installed base remains very strong\n   with high customer satisfaction and loyalty metrics.\n\n4. Regional Performance\n   Japan showed exceptional growth driven by new iPhone models and marketing\n   initiatives. China growth moderated due to competitive pressures and\n   macroeconomic challenges.\n\nFORWARD GUIDANCE:\n\nFor Q2 2024, we expect:\n- Sequential revenue decline typical for Q2\n- Gross margin in the range of 45-46%\n- Continued Services growth momentum\n\n================================================================================\n",
+      "length_chars": 2637,
+      "file_path": "/Users/karthikv/Downloads/MTech-Project/Mtech_project/financial_intelligence_system/examples/sample_data/financial_report_sample.txt"
+    },
+    {
+      "id": "doc_0001",
+      "filename": "real_time_kb_example_1.txt",
+      "type": "filing",
+      "content": "================================================================================\nREAL-TIME KNOWLEDGE BASE EXAMPLE DOCUMENT 1\n================================================================================\n\nTitle: Market News Flash - Tesla Announces New Gigafactory\nTimestamp: 2026-05-26T09:15:00Z\nSource: Reuters\n\nTesla, Inc. announced the construction of a new Gigafactory in India, expected to increase global production capacity by 15% over the next two years. The announcement was made during a press conference in Mumbai, with CEO Elon Musk highlighting the strategic importance of the Indian market for Tesla's long-term growth.\n\nKey Points:\n- New Gigafactory location: Mumbai, India\n- Expected operational date: Q4 2027\n- Projected increase in global capacity: 15%\n- Investment: $3.2 billion\n- Local job creation: 8,000+ positions\n\nMarket Impact:\nTesla shares rose 3% in pre-market trading following the announcement. Analysts expect the move to strengthen Tesla's supply chain in Asia and reduce logistics costs for the region.\n\n================================================================================\n",
+      "length_chars": 1119,
+      "file_path": "/Users/karthikv/Downloads/MTech-Project/Mtech_project/financial_intelligence_system/examples/sample_data/real_time_kb_example_1.txt"
+    },
+    {
+      "id": "doc_0002",
+      "filename": "real_time_kb_example_3.txt",
+      "type": "filing",
+      "content": "================================================================================\nREAL-TIME KNOWLEDGE BASE EXAMPLE DOCUMENT 3\n================================================================================\n\nTitle: Microsoft Azure AI Achieves Record Cloud Adoption\nTimestamp: 2026-05-26T11:30:00Z\nSource: CNBC\n\nMicrosoft announced that Azure AI services have reached a record 40% year-over-year growth in enterprise cloud adoption. The company attributes this surge to new generative AI offerings and expanded partnerships with Fortune 500 firms.\n\nHighlights:\n- Azure AI enterprise adoption up 40% YoY\n- New generative AI models available for business customers\n- Strategic partnerships with 25 new Fortune 500 companies\n- Enhanced security and compliance features\n\nMarket Response:\nMicrosoft stock climbed 2.5% in early trading. Industry experts say this cements Microsoft's leadership in the enterprise AI cloud market.\n\n================================================================================\n",
+      "length_chars": 1003,
+      "file_path": "/Users/karthikv/Downloads/MTech-Project/Mtech_project/financial_intelligence_system/examples/sample_data/real_time_kb_example_3.txt"
+    },
+    {
+      "id": "doc_0003",
+      "filename": "real_time_kb_example_2.txt",
+      "type": "filing",
+      "content": "================================================================================\nREAL-TIME KNOWLEDGE BASE EXAMPLE DOCUMENT 2\n================================================================================\n\nTitle: Breaking: Apple Launches AI-Powered Financial Assistant\nTimestamp: 2026-05-26T10:05:00Z\nSource: Bloomberg\n\nApple Inc. has launched a new AI-powered financial assistant, \"Apple Finance Pro,\" integrated into the Apple Wallet app. The assistant provides real-time spending insights, investment recommendations, and automated bill management for users in the US and Europe.\n\nKey Features:\n- Real-time transaction analysis\n- Personalized investment suggestions\n- Automated bill payment and reminders\n- Integration with Apple Card and third-party banks\n\nIndustry Reaction:\nFinancial analysts predict this move will accelerate the adoption of AI in personal finance and increase competition with fintech startups. Apple shares rose 1.2% after the announcement.\n\n================================================================================\n",
+      "length_chars": 1050,
+      "file_path": "/Users/karthikv/Downloads/MTech-Project/Mtech_project/financial_intelligence_system/examples/sample_data/real_time_kb_example_2.txt"
+    },
+    {
+      "id": "doc_0004",
+      "filename": "earnings_call_summary.txt",
+      "type": "filing",
+      "content": "================================================================================\nEARNINGS CALL TRANSCRIPT SUMMARY\nMICROSOFT CORPORATION\nQ2 2024 Earnings Call - January 30, 2024\n================================================================================\n\nCEO OPENING REMARKS:\n\n\"We delivered strong results in Q2 with revenue of $72.8 billion, up 16% \nyear-over-year. Cloud and AI investments continue to drive growth across\nall customer segments.\"\n\nFINANCIAL RESULTS:\n\nRevenue Q2 2024:                $72.8B (+16% YoY)\nOperating Income:               $28.3B\nNet Income:                     $23.6B\nEarnings Per Share (diluted):   $3.15\nOperating Margin:               38.8%\n\nSEGMENT PERFORMANCE:\n\nProductivity and Business Processes:\n- Revenue: $27.4B (+21% YoY)\n- Growth driven by Microsoft 365 and security products\n- AI copilots driving seat expansion\n\nIntelligent Cloud:\n- Revenue: $28.1B (+29% YoY)\n- Azure growth 29% (28% constant currency)\n- AI services adoption increasing significantly\n- Gaming content and services growth 41%\n\nMore Personal Computing:\n- Revenue: $17.3B (+2% YoY)\n- Windows revenue up 3% on PC refresh cycle\n- Gaming revenue growth momentum maintained\n\nKEY STRATEGIC INITIATIVES:\n\n1. Artificial Intelligence Integration\n   \"We're embedding Copilot AI across our entire product portfolio. This\n   includes Windows, Microsoft 365, and Azure. Customer adoption metrics\n   are exceeding our expectations.\"\n\n2. Azure Infrastructure Expansion\n   \"We're investing $10+ billion annually in AI infrastructure to meet\n   growing customer demand for compute capacity. This is a critical\n   competitive advantage.\"\n\n3. Security Leadership\n   \"With rising cybersecurity threats, we're seeing strong demand for\n   our security solutions. Enterprise customers prioritize integrated\n   security features.\"\n\nANALYST Q&A HIGHLIGHTS:\n\nQ: How is AI adoption impacting your customer metrics?\nA: \"We're seeing multi-double-digit growth in AI-related services. The\n   attach rates for Copilot Pro and enterprise AI services are ahead of\n   our projections. This is a major revenue opportunity over the next 3-5 years.\"\n\nQ: Can you provide more color on Azure growth sustainability?\nA: \"Azure has strong secular tailwinds from digital transformation and\n   AI adoption. We believe 25%+ growth is sustainable in the medium term.\"\n\nQ: What about competition from other cloud providers?\nA: \"We're focused on differentiation through AI and enterprise integration.\n   Customers value the Microsoft ecosystem benefits. Market share gains in\n   AI workloads demonstrate our competitive position.\"\n\nGUIDANCE FOR Q3 2024:\n\n- Revenue expected: $74-75.5B\n- Operating margin: 37-38%\n- Continued investment in AI infrastructure\n\nCAPITAL ALLOCATION:\n\n- Share buyback authorization: $60B\n- Dividend increase: 10% to $0.68/share\n- Capital expenditures: $15+ billion (AI infrastructure)\n\nKEY TAKEAWAYS:\n\n1. AI is the largest business opportunity in Microsoft's history\n2. Azure AI services driving outsized growth\n3. Cloud infrastructure investments essential for competitive advantage\n4. Enterprise adoption of AI faster than anticipated\n5. Operating margin expansion despite heavy R&D spending\n\n================================================================================\n",
+      "length_chars": 3266,
+      "file_path": "/Users/karthikv/Downloads/MTech-Project/Mtech_project/financial_intelligence_system/examples/sample_data/earnings_call_summary.txt"
+    },
+    {
+      "id": "doc_0005",
+      "filename": "sec_filing_sample.txt",
+      "type": "filing",
+      "content": "================================================================================\nSEC FILING - 10-K ANNUAL REPORT\nTESLA, INC.\nYear Ended December 31, 2023\n================================================================================\n\nITEM 1. BUSINESS\n\nTesla, Inc. designs, develops, manufactures and sells high-performance fully\nelectric vehicles, energy storage systems and solar products, as well as \nrelated services. We leverage our software expertise and custom silicon design \nto deliver vehicles with performance, efficiency and reliability.\n\nFINANCIAL HIGHLIGHTS:\n- Total Revenue 2023: $81.46 billion (vs $60.57 billion in 2022)\n- Gross Profit: $12.59 billion (15.5% margin)\n- Operating Income: $3.69 billion\n- Net Income: $2.56 billion\n- Operating Cash Flow: $7.86 billion\n\nRISK FACTORS:\n1. Competition in the electric vehicle market is intensifying\n2. Our profitability and cash flow are heavily dependent on volume growth\n3. Supply chain disruptions could impact production and delivery schedules\n4. We are subject to significant government regulation and incentives\n5. Prices of lithium and other battery materials have increased\n\nRESULTS OF OPERATIONS:\nThe following table shows our financial results for the years 2023, 2022, and 2021:\n\n                     2023          2022          2021\nRevenue (billions):  $81.46        $60.57        $47.52\nGross Margin (%):    15.5%         27.1%         30.5%\nOperating Margin (%): 4.5%         6.7%          12.5%\nNet Margin (%):      3.1%          6.6%          8.2%\n\nKey metrics by quarter (2023):\nQ1: Revenue $23.32B, Operating Margin 11.4%\nQ2: Revenue $24.93B, Operating Margin 9.3%\nQ3: Revenue $25.18B, Operating Margin 2.7%\nQ4: Revenue $25.03B, Operating Margin 1.8%\n\nMANAGEMENT'S DISCUSSION AND ANALYSIS:\n\nThe decrease in gross margin was primarily due to:\n- Lower average selling prices due to increased competition\n- Expansion into new markets with higher logistics costs\n- Increased per-unit depreciation from new manufacturing facilities\n\nOperating cash flow improved despite margin compression due to:\n- Improved working capital management\n- Increased accounts payable days\n- Better inventory turns\n\nFUTURE OUTLOOK:\nWe expect to continue investing heavily in:\n- Expansion of manufacturing capacity\n- Development of new vehicle platforms\n- Energy storage and solar products\n- Artificial intelligence and autonomous driving capabilities\n\nWe plan to increase production by approximately 20% in 2024 across all facilities.\n\n================================================================================\n",
+      "length_chars": 2572,
+      "file_path": "/Users/karthikv/Downloads/MTech-Project/Mtech_project/financial_intelligence_system/examples/sample_data/sec_filing_sample.txt"
+    }
+  ]
+}

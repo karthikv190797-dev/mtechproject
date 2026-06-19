@@ -1,0 +1,102 @@
+# Student Model Configuration for Fast Financial Reasoning
+
+model:
+  type: "student"
+  name: "financial-student-v1"
+  description: "Lightweight student model for fast inference (distilled from teacher)"
+  framework: "pytorch"
+  architecture: "distilbert"  # or "bert", "roberta", custom, etc.
+
+# Model architecture
+architecture:
+  model_type: "distilbert"
+  base_model: "distilbert-base-uncased"
+  hidden_size: 768
+  num_layers: 6
+  num_attention_heads: 12
+  intermediate_size: 3072
+  hidden_dropout_prob: 0.1
+  attention_probs_dropout_prob: 0.1
+  initializer_range: 0.02
+  max_position_embeddings: 512
+
+# Inference configuration
+inference:
+  temperature: 0.5
+  top_p: 0.9
+  max_tokens: 512
+  max_length: 1024
+  do_sample: true
+
+optimization:
+  quantization: false  # Set to true for int8 quantization
+  distillation: true
+  # For distillation tuning
+  distillation_temperature: 4.0
+  alpha: 0.5  # Weight for distillation loss (vs task loss 1-alpha)
+
+financial_domain:
+  # Domain-specific for financial analysis
+  task: "financial_reasoning"
+  input_types:
+    - query
+    - financial_document_excerpt
+    - financial_metrics
+  
+  output_format: "structured"  # structured vs free_text
+  
+  context_requirements:
+    - minimum_context_length: 200
+    - support_multi_document: true
+
+# Training configuration (if fine-tuning)
+training:
+  learning_rate: 1e-4
+  batch_size: 64
+  epochs: 10
+  warm_up_steps: 1000
+  weight_decay: 0.01
+  gradient_accumulation_steps: 2
+  max_grad_norm: 1.0
+  
+  # Distillation-specific
+  distillation_loss_type: "kl_divergence"
+  task_loss_type: "cross_entropy"
+  loss_weights:
+    distillation: 0.5
+    task: 0.5
+
+performance:
+  inference_speed: "fast"
+  memory_footprint: "small"
+  accuracy: "high"
+  model_size_mb: 268
+
+# Checkpoint info
+checkpoint:
+  path: "models/reasoning/student_model/weights.pt"
+  created: null
+  training_steps: 0
+  best_metric: null
+
+# Status
+status: "untrained_placeholder"
+note: "Train this model using distillation from the teacher model"
+
+# Usage
+usage: |
+  from models.model_loader import ModelLoader
+  
+  loader = ModelLoader()
+  teacher = loader.get_reasoning_model("teacher_model")
+  student = loader.get_reasoning_model("student_model")
+  
+  # Train student
+  pipeline = DistillationPipeline(teacher, student)
+  pipeline.train_student(training_data)
+  pipeline.save_student("models/reasoning/student_model/weights.pt")
+  
+  # Use for inference
+  from src.reasoning.distillation import DistillationPipeline
+  pipeline = DistillationPipeline(teacher, student)
+  result = pipeline.infer(query, context, use_teacher=False)

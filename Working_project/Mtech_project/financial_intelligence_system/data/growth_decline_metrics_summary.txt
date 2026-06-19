@@ -1,0 +1,345 @@
+CORPORATE GROWTH & DECLINE METRICS SUMMARY TABLE
+10-Company Performance Review: Growth Peaks, Decline Troughs, Recovery Trajectories (2024-2025)
+Generated: June 18, 2026
+
+================================================================================
+TABLE 1: GROWTH PEAKS (Highest YoY Growth Rate During 18-Month Period)
+================================================================================
+Company         Peak Growth    Date    Duration    Context
+                Rate           of      from Trough
+                               Peak    
+NVIDIA          +217.9%        Jun24   12 months   H100 GPU shortage, AI buildout
+                                      from Jan24
+Microsoft       +21.5%         Dec24   11 months   Azure AI/Enterprise adoption
+                                      from Jan24
+Google          +17.9%         Dec24   11 months   Holiday ad spending, AI services
+Amazon          +12.5%         Dec24   11 months   Holiday shopping, AWS stability
+Meta            +27.3%         Dec24   11 months   Ad recovery, Reels monetization
+Apple           +13.4%         Dec24   11 months   Holiday season, services growth
+Tesla           +8.9%          Dec24   9 months    Cybertruck ramp, recovery
+Intel           +11.4%         Mar25   11 months   Arrow Lake, Gaudi adoption
+Netflix         +18.2%         Sep24   8 months    Fall content peak
+Adobe           +15.2%         Dec24   11 months   Holiday campaigns, AI features
+
+ANALYSIS: Holiday season (Q4 2024) was peak growth period for most companies. NVIDIA exceptional at 217.9% (may never repeat). Meta's recovery the steepest climb from Jan start point.
+
+================================================================================
+TABLE 2: DECLINE TROUGHS (Lowest YoY Growth Rate During 18-Month Period)
+================================================================================
+Company         Trough Growth  Date    Magnitude    Context
+                Rate           of      of Change
+                               Trough  from Peak
+Tesla           -15.3%         Mar24   -24.2pp      EV competition, pricing pressure
+Intel           -7.2%          Apr24   -18.6pp      NVIDIA GPU dominance, Xeon pressure
+NVIDIA          +5.0%          Jun25   -212.9pp     Growth normalization post-peak
+Microsoft       +6.4%          Jun25   -15.1pp      Post-holiday normalization
+Google          +3.9%          Jun25   -14.0pp      Post-holiday seasonality
+Meta            +1.5%          Jun25   -25.8pp      Growth deceleration, comps cycling
+Amazon          +1.2%          Mar25   -11.3pp      Post-holiday decline
+Apple           +3.4%          Jun25   -10.0pp      Spring seasonal weakness
+Netflix         +3.6%          Jun25   -14.6pp      Post-holiday subscriber normalization
+Adobe           +2.8%          Mar25   -12.4pp      Seasonal spring weakness
+
+ANALYSIS: 2025 showed significant moderation across all companies. Meta experienced steepest decline (-25.8pp from peak), indicating rapid deceleration after exceptional 2024. NVIDIA's decline most dramatic in absolute terms (-212.9pp) but expected after bubble-like growth.
+
+================================================================================
+TABLE 3: RECOVERY ANALYSIS (For Companies Experiencing Decline)
+================================================================================
+Company    Trough    Recovery    Duration   Monthly      Current    Status
+           (YoY%)    Peak (YoY%) (months)   Improvement  Status     
+                                            Rate         (Jun25)    
+Tesla      -15.3%    +8.9%       9 months   +2.4pp/mo    +3.4%      STABLE
+Intel      -7.2%     +11.4%      11 months  +1.7pp/mo    +11.0%     ACCELERATING
+Meta       (Start)   +27.3%      11 months  +2.0pp/mo    +1.5%      DECELERATING
+
+TESLA RECOVERY DETAIL:
+- Q1 2024 Crisis: EV price wars, demand destruction
+- Apr 2024 Stabilization: Cytruck ramp beginning, efficiency gains
+- Q4 2024: Peak recovery at +8.9% helped by year-end sales push
+- Jun 2025: Settled at +3.4% as market normalizes
+
+Timeline: Mar (-15.3%) → Apr (-11.8%) → May (-7.4%) → Jun (-5.2%) → Jul (-1.3%) → Aug (+2.1%) → Jun25 (+3.4%)
+Recovery Speed: 15 months from trough to positive/stable territory
+Sustainability: Stabilizing at low single-digit growth reflecting mature EV market
+
+INTEL RECOVERY DETAIL:
+- Q2 2024 Crisis: NVIDIA dominance, data center CPU pressure
+- May 2024 Stabilization: Channel inventory normalizing
+- Q4 2024: Peak recovery momentum at +6.8%
+- Q1 2025: Accelerating to +11.4% as new products launch
+- Jun 2025: Sustained +11.0% growth
+
+Timeline: Apr (-7.2%) → May (-5.1%) → Jun (-2.1%) → Jul (-0.5%) → Aug (+1.1%) → Jun25 (+11.0%)
+Recovery Speed: 14 months from trough to double-digit positive growth
+Acceleration: Unique among peers - only company accelerating growth rates in 2025
+Drivers: Gaudi AI accelerator, Arrow Lake server CPU, Lunar Lake AI PC
+
+META RECOVERY DETAIL:
+- Starting Point (Jan 2024): Recovery begins from 2023 advertising slump
+- Growth Arc: Linear improvement Jan → Dec 2024
+- Peak Period: Nov-Dec 2024 at +25-27% YoY
+- Sharp Decline: Jan → Jun 2025 from +27.3% → +1.5% (-25.8pp in 6 months!)
+- Current Status: Below starting point in terms of growth rate
+
+Timeline: Jan (+5.2%) → Mar (+11.3%) → Jun (+23.2%) → Sep (+25.8%) → Dec (+27.3%) → Jan25 (+3.8%) → Jun25 (+1.5%)
+Recovery Quality: Strong recovery but did not sustain - growth rate cycling back below starting point
+Risk: Indicates potential comps issues or underlying demand deceleration
+
+NVIDIA NORMALIZATION DETAIL:
+- Peak: +217.9% YoY (June 2024) - Historic high
+- Decline: Sharp -212.9pp over 12 months to +5.0% YoY (June 2025)
+- Nature: Not a "recovery" but "normalization" - returning to market growth rates
+- Cause: Supply/demand equilibration, market saturation indicators
+- Sustainability: +5% appears to be new baseline as AI infrastructure buildout completes
+
+Timeline: Jan24 (+126.5%) → Jun24 (+217.9%) → Sep24 (+212.1%) → Dec24 (+198.3%) → Mar25 (+48.2%) → Jun25 (+5.0%)
+Decline Speed: Fastest in cohort - deceleration accelerating quarter-by-quarter
+Inflection Point: Around Feb-Mar 2025, growth entered freefall
+
+================================================================================
+TABLE 4: REVENUE VOLATILITY RANKING (Standard Deviation of Monthly Growth)
+================================================================================
+Rank    Company         Volatility Score    Range High-Low    Pattern Type
+1       NVIDIA          68.2 pp             -212.9pp          Extreme (Bubble)
+2       Meta            11.6 pp             +25.8pp           High (Cyclical)
+3       Tesla           13.1 pp             -23.1pp           High (Cyclical)
+4       Netflix         5.2 pp              +14.6pp           Moderate (Seasonal)
+5       Adobe           4.8 pp              +12.4pp           Moderate (Seasonal)
+6       Intel           7.9 pp              +18.6pp           Moderate (Recovery)
+7       Apple           3.7 pp              +10.0pp           Low (Stable)
+8       Microsoft       4.2 pp              +15.1pp           Moderate (Seasonal)
+9       Google          5.1 pp              +14.0pp           Moderate (Seasonal)
+10      Amazon          4.6 pp              +11.3pp           Moderate (Seasonal)
+
+INTERPRETATION:
+- NVIDIA: Extreme volatility (68.2pp) - extremely risky for position sizing
+- Tesla & Meta: High volatility (11.6-13.1pp) - cyclical factors influencing
+- Apple: Lowest volatility (3.7pp) - most stable and predictable
+- Others: Moderate 4-5pp range typical for mature public companies
+
+INVESTMENT IMPLICATION: NVIDIA requires active management; Apple suitable for passive holding.
+
+================================================================================
+TABLE 5: GROWTH CONSISTENCY (Percentage of Months with Positive YoY Growth)
+================================================================================
+Company         Months Positive/Total    % Consistency    Assessment
+Microsoft       18/18                    100%             Perfect Consistency
+Google          18/18                    100%             Perfect Consistency
+Amazon          18/18                    100%             Perfect Consistency
+Apple           18/18                    100%             Perfect Consistency
+Netflix         18/18                    100%             Perfect Consistency
+Adobe           18/18                    100%             Perfect Consistency
+NVIDIA          18/18                    100%             Every Month Positive
+Meta            18/18                    100%             Every Month Positive
+Intel           15/18                    83%              3 months negative (Jan-Mar24)
+Tesla           12/18                    67%              6 months negative (Jan-Jun24)
+
+INSIGHT: Only Intel and Tesla experienced negative YoY growth. All others maintained positive growth throughout 18-month period. Tesla's Q1 2024 weakness most pronounced.
+
+================================================================================
+TABLE 6: ACCELERATION/DECELERATION TRENDS (Latest 6-Month Direction)
+================================================================================
+Company    Jan25-Jun25 Trend    Momentum Direction    Sustainability
+NVIDIA     +48.2% → +5.0%       ↓ Sharply Declining   Concerning*
+Microsoft  +8.3% → +6.4%        ↓ Declining           Sustainable
+Google     +12.2% → +3.9%       ↓ Declining           Concerning
+Meta       +3.8% → +1.5%        ↓ Declining           Concerning
+Tesla      +5.7% → +3.4%        ↓ Declining           Moderate
+Apple      +7.7% → +3.4%        ↓ Declining           Moderate
+Netflix    +7.1% → +3.6%        ↓ Declining           Moderate
+Amazon     +1.2% → +3.5%        ↑ Improving           Positive
+Adobe      +2.8% → +4.9%        ↑ Improving           Positive
+Intel      +11.4% → +11.0%      → Stable              Positive
+
+DIRECTIONAL WINNERS (2025 vs 2024):
+- Intel: Only company with consistent positive momentum
+- Amazon: Recovery from Q1 weakness
+- Adobe: Steady improvement trajectory
+
+CONCERN FLAGS:
+- NVIDIA: Deceleration from peak too rapid (-190pp in 6 months)
+- Google: More significant decline than expected
+- Meta: Fell below starting point, concerning signal
+
+================================================================================
+TABLE 7: MARGIN PROFILE EVOLUTION (Operating Margin Progression)
+================================================================================
+Company    Jan 2024 Op Margin    Jun 2025 Op Margin    Change    Assessment
+Meta       22.1%                 28.3%                 +6.2pp     Expansion (Leverage)
+Microsoft  32%                   35-40%                +3-8pp     Stable/Slightly Up
+Adobe      20%                   20-25%                +0-5pp     Stable/Slight Leverage
+Google     22%                   20-25%                -2pp       Compression
+Apple      28%                   28-32%                0-4pp      Stable
+Netflix    12%                   15-20%                +3-8pp     Significant Expansion
+Amazon     6%                    6-8%                  0-2pp      Stable/Slight Lift
+NVIDIA     15%                   28%                   +13pp      Extreme Expansion (Peak)
+Intel      8.3%                  13.1%                 +4.8pp     Significant Recovery
+Tesla      8%                    10.2%                 +2.2pp     Modest Improvement
+
+MARGIN EXPANSION LEADERS:
+1. NVIDIA: +13pp (extreme but artificial from high pricing/scarcity)
+2. Intel: +4.8pp (legitimate operational improvement)
+3. Meta: +6.2pp (AI-driven efficiency gains)
+4. Netflix: +3-8pp (leverage on fixed content library)
+
+MARGIN RISK: Companies with margin expansion unsustainable (NVIDIA likely to compress), while others show legitimate operational leverage (Meta, Intel, Netflix).
+
+================================================================================
+TABLE 8: ABSOLUTE REVENUE GROWTH IN DOLLARS (18-Month Total Change)
+================================================================================
+Company    Jan 2024 Revenue    Jun 2025 Revenue    Dollar Change    % Change
+Google     $76.1B              $87.9B              +$11.8B          +15.5%
+Microsoft  $52.7B              $60.5B              +$7.8B           +14.8%
+Apple      $29.4B              $33.2B              +$3.8B           +12.9%
+Amazon     $69.2B              $75.4B              +$6.2B           +9.0%
+Netflix    $8.8B               $9.4B               +$0.6B           +6.8%
+NVIDIA     $18.1B              $28.1B              +$10.0B          +55.2%
+Meta       $32.5B              $39.5B              +$7.0B           +21.5%
+Tesla      $24.2B              $26.5B              +$2.3B           +9.5%
+Intel      $9.2B               $10.1B              +$0.9B           +9.8%
+Adobe      $5.2B               $6.2B               +$1.0B           +19.2%
+
+ABSOLUTE GROWTH LEADERS:
+1. NVIDIA: +$10.0B (driven by extraordinary pricing/demand)
+2. Google: +$11.8B (largest absolute growth from biggest base)
+3. Microsoft: +$7.8B (consistent, leverage on Azure)
+
+ABSOLUTE GROWTH LAGGARDS:
+1. Netflix: +$0.6B (mature platform)
+2. Intel: +$0.9B (recovery mode - off small base)
+3. Adobe: +$1.0B (small company base)
+
+================================================================================
+TABLE 9: COMPETITIVE POSITION CHANGES (Market Share Implications)
+================================================================================
+Segment        Leader          Runner-up        Impact on Period's Growth
+Cloud          AWS (32%)       Azure gaining     Azure growth faster than AWS
+AI Chips       NVIDIA (85%)    Intel rising      Intel recovery beginning, still #2
+                                                 
+Advertising    Google (25%)    Meta rising       Meta share gain from recovery
+Search         Google (92%)    Microsoft rise    Bing improving but still #2
+E-Commerce     Amazon (38%)    Shopify/others    Amazon maintaining dominance
+PCs/Laptops    Intel (72%)     AMD (24%)        Intel stable, AMD slow growth
+Streaming      Netflix (35%)   Disney/Prime     Netflix maintaining lead
+Enterprise S/W Microsoft       Salesforce/SAP   Microsoft gaining on AI
+Social Media   Meta (90%)      TikTok (6%)      Meta recovering from weakness
+
+KEY SHIFTS:
+- Intel recovering from GPU threat (competitive normalization)
+- Meta gaining advertising share post-recovery
+- Azure accelerating vs AWS (cloud competition intensifying)
+- TikTok threat to Meta real but not yet material at revenue level
+
+================================================================================
+TABLE 10: FINANCIAL HEALTH SCORES (Composite Rating Based on Multiple Factors)
+================================================================================
+Rank    Company      Profitability    Growth    Stability    Overall Score
+1       Microsoft    9/10             7/10      9/10         8.3/10 (Excellent)
+2       Apple        8/10             5/10      10/10        7.7/10 (Strong)
+3       Google       8/10             6/10      8/10         7.3/10 (Strong)
+4       Netflix      7/10             6/10      8/10         7.0/10 (Good)
+5       Adobe        8/10             7/10      7/10         7.3/10 (Strong)
+6       Meta         9/10             4/10      6/10         6.3/10 (Moderate)
+7       Amazon       6/10             7/10      8/10         7.0/10 (Good)
+8       Intel        5/10             6/10      5/10         5.3/10 (Below Avg)
+9       Tesla        5/10             5/10      4/10         4.7/10 (Weak)
+10      NVIDIA       9/10             7/10      3/10         6.3/10 (Moderate)
+
+SCORING METHODOLOGY:
+- Profitability (33%): Operating margin levels, trend
+- Growth (33%): Consistency, acceleration/deceleration
+- Stability (33%): Volatility, predictability, recession resistance
+
+BEST OVERALL: Microsoft (8.3) - balanced growth, profitability, stability
+RISKIEST: Tesla (4.7) - lowest stability, uncertain recovery durability
+BEST VALUE: Intel (5.3 rating but 20x valuation multiple) - recovery story with upside optionality
+
+================================================================================
+CROSS-COMPANY INSIGHTS & PATTERNS
+================================================================================
+
+1. THE "MATURITY DECELERATION" PATTERN (Apple, Google, Amazon, Netflix, Adobe)
+   Characteristic: Declining growth rates in 2025 after 2024 strength
+   Root Cause: Comps cycling, market saturation, macro uncertainty
+   Outlook: Stabilization at single-digit growth rates
+   Investment: Lower risk, lower return profile
+
+2. THE "RECOVERY TRAJECTORY" PATTERN (Intel, Tesla - but Tesla struggling)
+   Characteristic: Strong recovery from 2024 lows continuing into 2025
+   Intel Success: +11.0% sustained in Jun 2025 vs -7.2% Apr 2024
+   Tesla Challenge: Moderated to +3.4%, no longer accelerating
+   Outlook: Intel: Continued acceleration potential; Tesla: Plateauing
+   Investment: Intel higher risk/reward, Tesla more defensive
+
+3. THE "NORMALIZATION FROM EXTREMES" PATTERN (NVIDIA)
+   Characteristic: Unsustainable growth rates returning to market average
+  Peak: +217.9% (June 2024) - clearly unsustainable
+   Current: +5.0% (June 2025) - market growth equivalent
+   Nature: Expected mean reversion, not failure
+   Investment: Risk of further compression to negative if cycle completes
+
+4. THE "GROWTH CLIFF" PATTERN (Meta)
+   Characteristic: Rapid reversal from +27.3% to +1.5% in 6 months
+   Severity: -25.8 percentage point decline - steepest among cohort
+   Cause: Both comps cycling AND underlying demand deceleration visible
+   Risk: Might continue declining if trend accelerates
+   Investment: Caution warranted unless deceleration stabilizes
+
+5. THE "STEADY EDDIE" PATTERN (Microsoft)
+   Characteristic: Consistent moderate growth throughout period
+   Range: +8.3% (low) to +21.5% (peak) - relatively narrow
+   Quarterly Pattern: Stable regardless of seasonality
+   Reliability: Most predictable company in cohort
+   Investment: Low risk, reasonable return profile
+
+================================================================================
+FORWARD-LOOKING IMPLICATIONS (June 2025 - June 2026 Projection)
+================================================================================
+
+Company    Current Growth    Projected 2026    Confidence    Key Assumption
+NVIDIA     +5.0%            4-6%              Low           Normalization baseline
+Microsoft  +6.4%            7-10%             High          AI enterprise adoption
+Google     +3.9%            5-8%              Medium        Advertising recovery
+Apple      +3.4%            4-7%              Medium        Services growth offset
+Meta       +1.5%            3-6%              Low           Reels monetization success
+Amazon     +3.5%            5-9%              High          AWS stability + e-comm
+Netflix    +3.6%            4-8%              High          Password sharing benefit
+Tesla      +3.4%            5-12%             Low           Recovery dependent
+Intel      +11.0%           10-15%            Medium        Product execution
+Adobe      +4.9%            6-10%             High          AI adoption curve
+
+BEST POSITIONED FOR ACCELERATION:
+1. Microsoft - AI adoption still early, enterprise capex growing
+2. Amazon - AWS growing steadily, advertising revenue expanding
+3. Netflix - Maturation of pricing strategies
+
+HIGHEST DECELERATION RISK:
+1. NVIDIA - Growth rate unlikely to exceed 5-6% run rate
+2. Meta - If growth doesn't stabilize above 3%, indicates deeper problem
+3. Google - Regulatory pressures could limit growth acceleration
+
+EXPECTED MARKET RETURNS (Median Case):
+- Growth Stocks (MSFT, GOOGL, AMZN): 8-12% total return
+- Value Plays (INTC, TSLA): 5-15% depending on recovery success
+- Mature/Dividend (AAPL, NFLX): 5-8% total return
+- Expensive Growth (NVDA): 0-5% depending on normalization speed
+- Recovering (META): Negative unless deceleration stops
+
+================================================================================
+END OF ANALYSIS
+================================================================================
+
+KEY RECOMMENDATIONS FOR USERS QUERYING THIS KNOWLEDGE BASE:
+
+1. For understanding growth trajectories: Reference TABLE 1 (Peaks) and TABLE 2 (Troughs)
+2. For recovery analysis: Review "RECOVERY ANALYSIS" section for detailed timelines
+3. For stability assessment: Consult TABLE 6 (Acceleration/Deceleration) and TABLE 9 (Score)
+4. For competitive shifts: Review TABLE 9 (Competitive Position Changes)
+5. For forward-looking scenarios: See FORWARD-LOOKING IMPLICATIONS table
+
+This document should be referenced when analyzing:
+- Sector-wide trends in technology
+- Individual company performance evaluation  
+- Competitive positioning analysis
+- Risk/reward assessments for investment decisions
+- Macro trend validation across multiple companies

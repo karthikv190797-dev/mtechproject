@@ -1,0 +1,30 @@
+[
+  {
+    "id": "tesla_q4_2023_earnings",
+    "title": "Tesla Q4 2023 Earnings Report",
+    "content": "Tesla Inc. Q4 2023 Update - Fourth Quarter and Full Year 2023 Financial Results\n\nSAN FRANCISCO, January 25, 2024\n\nTESLA Q4 AND FULL YEAR 2023 UPDATE\n\nQ4 2023 Financial Results:\n- Total Revenue: $25.2 billion (Q4), $81.5 billion (full year)\n- Automotive Revenue: $22.9 billion (Q4), $74.8 billion (FY)\n- Energy Storage and Services Revenue: $2.3 billion (Q4), $6.7 billion (FY)\n- Gross Margin: 25.1% (Q4), 25.5% (FY)\n- Operating Margin: 12.5% (Q4), 15.0% (FY)\n- Net Income: $3.6 billion (Q4), $14.9 billion (FY)\n\nProduction and Deliveries:\n- Total Vehicle Production: 1.81 million units (full year 2023)\n- Total Vehicle Deliveries: 1.81 million units (full year 2023)\n- Year-over-year growth: 38% production increase\n\nBy Model:\n- Model Y/3: 1.23 million units shipped\n- Model S/X: 0.381 million units shipped\n- Cybertruck: 0.05 million units produced (ramp-up phase)\n\nOperational Highlights:\n- Significant production ramp at new Berlin and Austin plants\n- Price optimization strategy maintained margins despite competitive pressure\n- Energy storage deployment surged to 14.7 GWh (up 130% YoY)\n\nCypbertruck Launch:\n- Production began October 2023 at Texas Gigafactory\n- Initial production constrained as supply chain ramps\n- Strong demand continues with 2 million+ reservations\n- Ramping to meaningful volume levels during 2024\n\nCapital Expenditure:\n- Total Capex 2023: $8.2 billion\n- Invested in: new manufacturing capacity, energy projects, AI/computing\n- Planned facilities: Mexico Gigafactory, India Gigafactory\n\nFull Year 2023 Summary:\nTesla achieved record production and delivery volumes while maintaining pricing power, despite increased competition in the EV market from traditional automakers. The company's gross margin remained healthy at 25.5%, reflecting production efficiency improvements and favorable energy storage growth.\n\nLooking forward, Tesla expects accelerated growth through:\n- Cybertruck ramp to volume\n- New factory capacity utilization\n- Energy business expansion\n- AI/FSD development\n- Next-generation vehicle development",
+    "source": "INVESTOR_RELATIONS",
+    "company": "TSLA",
+    "financial_year": 2023,
+    "metadata": {
+      "document_type": "earnings_report",
+      "quarter": 4,
+      "year": 2023,
+      "published_date": "2024-01-25"
+    }
+  },
+  {
+    "id": "amazon_aws_segment_2023",
+    "title": "Amazon Web Services (AWS) Financial Performance 2023",
+    "content": "Amazon Web Services (AWS) - 2023 Financial Performance and Strategic Update\n\nAWS 2023 Full Year Results:\n- Total Revenue: $90.8 billion (up 13% YoY)\n- Operating Income: $21.5 billion (up 22% YoY)\n- Operating Margin: 23.7% (up 180 basis points)\n\nRevenue Breakdown by Service:\n- Compute Services (EC2): $38.2 billion (42% of AWS revenue)\n- Database and Analytics: $23.1 billion (25%)\n- Storage Services: $15.4 billion (17%)\n- Networking and Content Delivery: $8.9 billion (10%)\n- Application Services and Other: $5.2 billion (6%)\n\nCustomer Metrics:\n- Over 8 million active customers using AWS\n- 30% of customers are enterprise Fortune 500 companies\n- Customer base growing 30% YoY\n\nMarket Position:\n- AWS estimated market share: 32% of global cloud infrastructure\n- Largest cloud provider by revenue and market share\n- Operating margins at 23.7%, highest among major cloud providers\n\nAI and Machine Learning:\nAWS accelerated AI adoption in 2023:\n- SageMaker ML service revenue grew 45% YoY\n- Bedrock foundation models launched (Claude, GPT models)\n- Q model customization growing rapidly\n- AI services revenue estimated at $4.2 billion (extrapolated growth rate 50% YoY)\n\nGeographic Performance:\n- US and International approximately equal revenue (~50/50)\n- Europe growing 20% YoY\n- Asia-Pacific growing 35% YoY\n- Latin America growing 32% YoY\n\nCompetitive Dynamics:\n- Microsoft Azure growing faster (29%) but from smaller base\n- Google Cloud Platform growing 26% but in third position\n- AWS maintaining 180 bps margin lead despite price competition\n\nCapital Intensity:\n- Capex investment in infrastructure: $29.3 billion\n- Supporting data center buildout for AI\n- Regional expansion to emerging markets\n\n2024 Outlook:\nAWS expects:\n- Continued cloud adoption acceleration\n- AI services proliferation\n- Margin maintenance through efficiency gains\n- Market share defense in competitive environment",
+    "source": "INVESTOR_RELATIONS",
+    "company": "AMZN",
+    "financial_year": 2023,
+    "metadata": {
+      "document_type": "segment_summary",
+      "segment": "AWS",
+      "year": 2023,
+      "published_date": "2024-02-01"
+    }
+  }
+]

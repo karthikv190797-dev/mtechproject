@@ -1,0 +1,20 @@
+================================================================================
+REAL-TIME KNOWLEDGE BASE EXAMPLE DOCUMENT 2
+================================================================================
+
+Title: Breaking: Apple Launches AI-Powered Financial Assistant
+Timestamp: 2026-05-26T10:05:00Z
+Source: Bloomberg
+
+Apple Inc. has launched a new AI-powered financial assistant, "Apple Finance Pro," integrated into the Apple Wallet app. The assistant provides real-time spending insights, investment recommendations, and automated bill management for users in the US and Europe.
+
+Key Features:
+- Real-time transaction analysis
+- Personalized investment suggestions
+- Automated bill payment and reminders
+- Integration with Apple Card and third-party banks
+
+Industry Reaction:
+Financial analysts predict this move will accelerate the adoption of AI in personal finance and increase competition with fintech startups. Apple shares rose 1.2% after the announcement.
+
+================================================================================

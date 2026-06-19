@@ -1,0 +1,30 @@
+# BM25 Retriever Configuration
+
+bm25:
+  algorithm: "BM25F"
+  description: "Keyword-based sparse retrieval using BM25"
+  
+  parameters:
+    k1: 1.5              # Controls term frequency saturation point
+    b: 0.75              # Controls how much effect document length has on relevance
+    epsilon: 0.25        # Lower bound of term frequency normalization
+  
+  indexing:
+    tokenizer: "whitespace"
+    lowercase: true
+    remove_stopwords: false
+    min_token_length: 1
+  
+  search:
+    top_k: 5             # Number of results to return
+    threshold: 0.0       # Minimum score threshold
+  
+  performance:
+    memory_efficient: true
+    speed: "very_fast"
+    accuracy: "good_for_keywords"
+
+# Use in code:
+# from src.retrieval.hybrid_retriever import BM25Retriever
+# retriever = BM25Retriever(documents, k=5)
+# results = retriever.search(query)

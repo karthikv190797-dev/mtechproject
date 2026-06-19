@@ -1,0 +1,649 @@
+=== PDF EXTRACT ===
+
+--- PAGE 1 ---
+BIRLA	INSTITUTE	OF	TECHNOLOGY	&	SCIENCE,	PILANI	
+WORK	INTEGRATED	LEARNING	PROGRAMMES	(WILP)	
+	
+Dissertation	/	Project	/	Project	Work	
+	
+Self-Correcting	Financial	Intelligence	Systems	
+	
+	
+Student	Name:Karthik	V	
+BITS	ID:	2024AA05045	
+Course	No.:	 AIMLCZG628T	
+Degree	Program:	 M.Tech in Ar,ﬁcial Intelligence and Machine Learning	
+Organization:	Voya	Global	Service	Pvt	Ltd		
+Location:	Bangalore,	India	
+Month	&	Year:	May	2026	
+
+--- PAGE 2 ---
+BIRLA INSTITUTE OF TECHNOLOGY & SCIENCE, PILANI	
+WORK INTEGRATED LEARNING PROGRAMMES (WILP) DIVISION	
+SECOND SEMESTER OF ACADEMIC YEAR 2025-2026	
+AIMLCZG628T : DISSERTATION OUTLINE	
+Contents	
+STUDENT ID No. 2024AA05045
+NAME OF THE STUDENT Karthik V
+STUDENT'S EMAIL ADDRESS 2024aa05045@wilp.bits-pilani.ac.in/
+karthikking488@gmail.com/karthik.v@voya.com
+STUDENT'S PHONE NUMBER +91-7899476934
+STUDENT'S EMPLOYING 
+ORGANIZATION & LOCATION
+Voya Global Services Private Limited,  7th Floor, L3, Voya 
+Global Services Pvt.Ltd, Outer Ring Rd, DadaMastan 
+Layout, Manayata Tech Park, Nagavara, Bengaluru, 
+Karnataka 560045
+SUPERVISOR'S NAME ShivaChandran Masilamani
+SUPERVISOR'S EMPLOYING 
+ORGANIZATION & LOCATION
+Voya Global Services Private Limited,  7th Floor, L3, Voya 
+Global Services Pvt.Ltd, Outer Ring Rd, DadaMastan 
+Layout, Manayata Tech Park, Nagavara, Bengaluru, 
+Karnataka 560045
+SUPERVISOR'S EMAIL ADDRESSshivaChandran.masilamani@voya.com
+ADDITIONAL EXAMINER'S 
+NAME
+Deepthi	B
+ADDITIONAL EXAMINER'S 
+EMPLOYING ORGANIZATION & 
+LOCATION
+Voya Global Services Private Limited,  7th Floor, L3, Voya 
+Global Services Pvt.Ltd, Outer Ring Rd, DadaMastan 
+Layout, Manayata Tech Park, Nagavara, Bengaluru, 
+Karnataka 560045
+ADDITIONAL EXAMINER'S 
+EMAIL ADDRESS deepthi.b@voya.com
+DISSERTATION / PROJECT / 
+PROJECT WORK TITLE
+Self-Correcting	Financial	
+Intelligence	Systems
+
+--- PAGE 3 ---
+1. Broad Area of Work 
+4	
+2. Background 
+5	
+3. ObjecWves 
+7	
+4. Scope of Work 
+9	
+5. Plan of Work 
+11	
+6. Literature References 
+12	
+7. ParWculars of the Supervisor and Examiner 
+16	
+8. Remarks of the Supervisor 
+17	
+
+--- PAGE 4 ---
+1.  Broad Area of Work 
+The dissertation belongs to the discipline of Artificial Intelligence and Machine Learning, with 
+primary focus areas in Natural Language Processing (NLP), Information Retrieval, Financial 
+Document Understanding, and Evaluative MultiAgent Systems. The project aims to design and 
+implement a selfcorrecting financial intelligence platform that unifies multiagent retrieval, 
+teacher–student reasoning, and evaluator feedback for trustworthy automation in financial 
+analytics and document comprehension. 
+Subdomains and technical focuses include: 
+1.RetrievalAugmented GeneraWon (RAG): ImplementaWon of a mulWagent retrieval architecture 
+that combines semanWc vector search and keywordbased retrieval to extract context from SEC 10K 
+ﬁlings, annual disclosures, and structured Snowﬂake databases, ensuring both semanWc depth and lexical 
+precision. 
+2.Teacher–Student DisWllaWon: Deployment of a highcapacity teacher model for deep table and 
+text understanding, guiding a lightweight student model to replicate extracWon and reasoning with 
+opWmized eﬃciency, enabling faster tabular comprehension and lower inference cost. 
+3.EvaluatorintheLoop Systems: IntegraWon of an evaluator metaagent that assesses responses for 
+factual accuracy, faithfulness, and numerical consistency, automaWcally triggering query reﬁnement or 
+reranking cycles when conﬁdence scores fall below the conﬁgured threshold, thus creaWng a conWnuous 
+selfcorrecWon pipeline. 
+4.CrossModel VeriﬁcaWon: AdopWon of a veriﬁcaWon layer using mulWple large language models 
+operaWng in parallel to crossverify results; inconsistencies are resolved through consensus scoring, 
+ensuring that ﬁnal outputs remain grounded, validated, and free from hallucinaWon. 
+5.Financial Data Understanding: ApplicaWon of AI models on structured and unstructured 
+ﬁnancial data—including SEC 10K reports, income statements, cashﬂow summaries, and risk disclosures
+—to achieve accurate extracWon of ﬁnancial enWWes, trend pakerns, and key performance metrics 
+through domainadapted embeddings. 
+6.Solware Engineering and Deployment: Development of a containerized, modular, and 
+conﬁguraWondriven system using Docker, FastAPI, and Streamlit, enabling secure, onpremise installaWons 
+compliant with enterprise datagovernance standards; the design supports easy customizaWon and 
+scalability via YAMLbased conﬁguraWon management. 
+
+--- PAGE 5 ---
+2.  Background 
+Modern ﬁnancial analysis depends heavily on the ability to extract precise insights from dense, 
+mulWmodal data sources such as SEC 10K ﬁlings, annual reports, investor brieﬁngs, and regulatory 
+disclosures. These documents olen exceed hundreds of pages, ﬁlled with domainspeciﬁc 
+terminology, complex tables, and contextual dependencies that are not easily captured by generic 
+natural language models. The volume and velocity of such data have increased exponenWally, making 
+manual exploraWon both Wmeconsuming and errorprone. 
+TradiWonal RetrievalAugmented GeneraWon (RAG) planorms and generalpurpose AI assistants (such 
+as cloudhosted LLMs) provide parWal support for ﬁnancial data retrieval, but their deployment in 
+enterprise contexts encounters several constraints. They olen: 
+• Generate hallucinated or unveriﬁable results due to insuﬃcient crosschecking; 
+• Fail to respect dataprivacy mandates, as enterprise and ﬁnancial content cannot be shared 
+outside secured networks; 
+• Lack domainadapted embeddings and retrieval logic capable of interpreWng ﬁnancial labels, 
+numerical tables, or accounWng context; and 
+• Operate as staWc singleretriever pipelines that cannot idenWfy or correct their own errors. 
+At Voya Global Services Pvt Ltd, analysts regularly deal with fragmented data ecosystems integraWng 
+structured repositories (e.g., Snowﬂake data warehouses, relaWonal ledgers) and unstructured 
+sources (e.g., SEC ﬁlings, audit documents, analyst commentaries). Retrieving an answer to a simple 
+query—such as analyzing yearonyear revenue variance or linking risk disclosures to numerical tables
+—requires manually querying several systems, performing repeated reconciliaWon, and validaWng 
+against corporate data warehouses. This workﬂow creates latency, redundancy, and inconsistent 
+results across teams, weakening decisionmaking eﬃciency. 
+To address these operaWonal and technical pain points, this dissertaWon proposes a SelfCorrecWng 
+Financial Intelligence System, a complete endtoend framework built on the principles of agent 
+orchestraWon, evaluaWve feedback, and interpretabilitydriven AI. The system introduces a 
+coordinated set of intelligent agents that collaborate and criWque one another within a uniﬁed 
+workﬂow, overcoming the shortcomings of convenWonal retrieval architectures. 
+The proposed framework is centered around ﬁve synergisWc design components: 
+• LangGraphbased orchestraWon: A graphstructured control layer that coordinates retrieval, 
+reasoning, and veriﬁcaWon among autonomous agents, enabling dynamic task rouWng and 
+scalable workﬂows. 
+
+--- PAGE 6 ---
+• Hybrid RAG pipeline (FAISS + BM25): A dualretrieval mechanism combining semanWc 
+embedding search with lexical keyword matching to achieve both contextual understanding 
+and exact factual retrieval. 
+• Evaluatorcontrolled feedback loop: An evaluator agent conWnuously evaluates outputs for 
+faithfulness and relevance, iniWaWng automaWc selfcorrecWon cycles when responses lack 
+conﬁdence or factual grounding. 
+• Teacher–Student DisWllaWon: A dualmodel learning strategy where a large teacher model 
+performs accurate table and text reasoning, transferring structured knowledge to a lighter 
+student model opWmized for realWme performance on enterprise hardware. 
+• CrossModel VeriﬁcaWon (TriangulaWon): MulWple large language models run in parallel to 
+generate and validate candidate responses; discrepancies trigger consensus validaWon to 
+eliminate hallucinaWon and enhance trustworthiness. 
+The enWre system is implemented as an onpremise, containerized soluWon to meet stringent 
+enterprise security and regulatory requirements. Packaged using Docker and managed via a single 
+conﬁguraWon ﬁle, the soluWon ensures portability and ease of deployment across ﬁnancial 
+departments without exposing sensiWve data to external cloud services. Its end goal is to deliver a 
+transparent, explainable, and auditable AIbased assistant capable of producing consistent, 
+datagrounded, and repeatable ﬁnancial insights suitable for enterprise adopWon and decision 
+support. 
+
+--- PAGE 7 ---
+3.  Objec,ves 
+The central goal of this dissertaWon is to conceptualize, design, and implement a SelfCorrecWng 
+Financial Intelligence System that combines the strengths of RetrievalAugmented GeneraWon (RAG), 
+teacher–student disWllaWon, evaluatordriven feedback loops, and mulWagent collaboraWon to achieve 
+veriﬁable, contextaware ﬁnancial insight generaWon. The system aims to set new standards for 
+accuracy, interpretability, and autonomy in ﬁnancial analyWcs powered by arWﬁcial intelligence. 
+The speciﬁc objecWves are outlined below: 
+1.To architect a LangGraphbased mulWagent RAG framework that enables dynamic coordinaWon 
+among Retriever, Reader, Veriﬁer, and Evaluator agents, ensuring seamless informaWon ﬂow, 
+eﬃcient task rouWng, and adapWve feedback control throughout the retrieval and reasoning 
+process. 
+2.To implement a Teacher–Student DisWllaWon pipeline that transfers indepth tabular reasoning 
+and text understanding capabiliWes from a large teacher model to a smaller student model, 
+opWmizing performance for realWme, onpremise ﬁnancial intelligence queries. 
+3.To develop a hybrid retrieval layer that integrates dense vector similarity search (FAISS) and 
+lexical BM25 matching under a uniﬁed scoring mechanism, suitable for extracWng informaWon 
+from both textual narraWves and numerical table structures in ﬁnancial reports. 
+4.To construct an Evaluator Agent capable of intelligent selfcorrecWon, applying mulWcriteria 
+scoring frameworks—relevance, factual consistency, entailment, and numerical coherence—to 
+automaWcally trigger query reformulaWon and iteraWve reretrieval when accuracy thresholds are 
+not met. 
+5.To design a CrossModel VeriﬁcaWon engine that performs consensus validaWon among 
+mulWple LLMs, minimizing hallucinaWon and model bias by reconciling divergent outputs 
+through automated scoring and majority agreement principles. 
+6.To integrate ﬁnancial data from structured and unstructured sources, combining 
+Snowﬂake data warehouse queries with content from SEC 10K ﬁlings, annual reports, and 
+investor disclosures, thus creaWng a holisWc knowledge corpus for retrieval and analyWcs. 
+7.To create a scalable backend implementaWon using FastAPI that exposes retrieval, reasoning, 
+and evaluaWon modules through secure REST APIs, supporWng asynchronous processing and 
+enterprisegrade integraWons. 
+8.To design an interacWve Streamlitbased user interface that allows analysts to input 
+naturallanguage queries, visualize retrieved evidence, inspect answer conﬁdence scores, and 
+trace model reasoning paths, thereby improving system explainability and user trust. 
+
+--- PAGE 8 ---
+9.To ensure data privacy and compliance by deploying the enWre framework in a containerized 
+Docker environment, with conﬁgurable YAMLdriven setup that permits rapid adaptaWon to 
+various enterprise infrastructures without external data transmission. 
+10.To perform ﬁnetuning and domain adaptaWon of embedding models using 
+organizaWonspeciﬁc ﬁnancial datasets, ensuring accurate representaWon of domain enWWes such 
+as revenue segments, ﬁnancial raWos, risk labels, and accounWng terminology. 
+11.To establish automated logging, monitoring, and modelperformance tracking mechanisms, 
+capturing operaWonal metrics, error pakerns, and evaluator conﬁdence distribuWons for 
+conWnuous model improvement. 
+12.To evaluate system performance across retrieval and reasoning layers using both quanWtaWve 
+and qualitaWve benchmarks, 
+including Precision@K, Mean Reciprocal Rank (MRR), Normalized Discounted CumulaWve Gain (
+NDCG), Faithfulness Score, HallucinaWonDetecWon Accuracy, Numerical Consistency, 
+and CrossModel Agreement Rate. 
+13.To conduct comparaWve ablaWon studies assessing the contribuWon of individual modules—
+such as evaluator feedback, disWllaWon, and hybrid retrieval—to the overall system performance 
+and reliability. 
+14.To validate deployability and scalability on standard compuWng hardware, conﬁrming that the 
+soluWon can operate as a standalone, locally deployable assistant within enterprise networks 
+without dependency on external LLM APIs. 
+Together, these objecWves collecWvely ensure the development of a robust, interpretable, and 
+enterprisegrade mulWagent AI system that bridges the gap between academic innovaWon and 
+pracWcal ﬁnancial data intelligence by oﬀering transparency, veriﬁcaWon, and selﬁmproving 
+knowledge retrieval capabiliWes. 
+
+--- PAGE 9 ---
+4.  Scope of Work 
+The scope of this dissertaWon encompasses the endtoend design, development, integraWon, and 
+evaluaWon of an advanced mulWagent Financial Intelligence System built on RetrievalAugmented 
+GeneraWon (RAG) principles. It deﬁnes the technical boundaries, deliverables, and exclusions within 
+which the research will be executed, ensuring precision, reproducibility, and alignment with M.Tech 
+research standards. 
+The project covers the following core components: 
+1.Comprehensive System Architecture and Modular AI Implementa8on: 
+The system will be designed as a fully modular, Pythonbased framework implemenWng a clear 
+separaWon of concerns among retrieval, reasoning, veriﬁcaWon, and orchestraWon layers. Each 
+component—Retriever, Reader, Veriﬁer, Evaluator, and Orchestrator—will be independently 
+conﬁgurable and reusable across mulWple use cases. 
+2.Integra8on of Mul8Agent Workﬂow Using LangGraph Orchestra8on: 
+MulWple specialized agents such as the Retriever, Reader, Veriﬁer, and Evaluator will operate in 
+parallel and communicate through a LangGraphbased workﬂow engine. This ensures eﬃcient 
+coordinaWon, context propagaWon, and dynamic task rouWng, allowing the system to retrieve, 
+analyze, and verify ﬁnancial data autonomously. 
+3.Teacher–Student Dis8lla8on and DomainSpeciﬁc Training: 
+A Teacher–Student training module will be developed using structured ﬁnancial table extracWon 
+datasets curated from SEC 10K reports and balance sheets. The large teacher model will 
+supervise a compact student model to accurately reproduce tabular understanding and 
+numerical reasoning with reduced computaWonal overhead. 
+4.SelfCorrec8ng Evaluator Feedback Mechanism: 
+The Evaluator Agent will conWnuously monitor the system’s responses for factual consistency, 
+numerical accuracy, and semanWc relevance. When conﬁdence metrics drop below deﬁned 
+thresholds, it will automaWcally trigger query expansion, reretrieval, or passage reranking to 
+reﬁne the results—enabling a fully autonomous selfcorrecWon cycle. 
+5.Hybrid Retrieval Integra8on (FAISS + BM25): 
+The retrieval subsystem will employ a hybrid approach combining dense vector search using 
+FAISS and sparse keyword search using BM25. A weighted scoring strategy will balance semanWc 
+similarity and exact keyword matching to achieve opWmal retrieval precision across textual 
+narraWves and embedded ﬁnancial tables. 
+6.Snowﬂake Data Warehouse Integra8on: 
+The system will connect naWvely with the Snowﬂake data warehouse to enable highperformance 
+
+--- PAGE 10 ---
+querying of structured ﬁnancial data—such as revenue, expenses, and risk indicators—alongside 
+unstructured textual content from regulatory ﬁlings. 
+7.BackEnd and User Interface Development: 
+A FastAPI backend will expose retriever and evaluator endpoints as RESTful services, while a 
+Streamlit web frontend will provide users with query inputs, conﬁdencescore visualizaWon, 
+supporWng evidence display, and citaWon transparency for every AIgenerated result. 
+8.Containerized Deployment and Conﬁgura8on Management: 
+The enWre system will be packaged as a Dockerized applicaWon supporWng singlecommand 
+installaWons. ConﬁguraWon will be managed through a YAMLbased orchestrator ﬁle that deﬁnes 
+data sources, model paths, and conﬁdence thresholds. This modular setup facilitates 
+privacycentric, onpremise deployment with minimal user intervenWon. 
+9.Evalua8on and Benchmarking of System Performance: 
+Rigorous empirical studies will be conducted to measure componentlevel and endtoend system 
+eﬀecWveness. EvaluaWon metrics will include Precision@K, Mean Reciprocal Rank (MRR), 
+Normalized Discounted CumulaWve Gain (NDCG), Faithfulness Score, and Evaluator Hit Rate. 
+AddiWonal ablaWon experiments will quanWfy the impact of individual modules such as evaluator 
+feedback and hybrid retrieval. 
+10.Version Control and Documenta8on: 
+The system will maintain full version control using Git for traceability and reproducibility. 
+Detailed documentaWon covering architecture design, conﬁguraWon sesngs, data schema, and 
+deployment steps will be developed for academic and industrial audiences. 
+Explicitly Excluded from Scope: 
+The dissertaWon will not involve: 
+• Training or developing large foundaWonal language models (LLMs) from scratch; 
+• IntegraWon with proprietary or paid cloudbased APIs (e.g., OpenAI, Anthropic, Gemini) due 
+to dataprivacy and cost constraints; 
+• Largescale enterprise rollouts or producWon hosWng beyond the demonstraWon 
+environment; 
+• Handling or processing live ﬁnancial transacWons or sensiWve data outside the approved 
+research environment. 
+This deﬁned scope ensures that the dissertaWon remains technically rigorous, academically 
+measurable, and pracWcally executable, focusing on implementable innovaWons that improve trust, 
+explainability, and automaWon in enterprisegrade ﬁnancial knowledge retrieval. 
+.	
+
+--- PAGE 11 ---
+5. Plan of Work	
+Phase Timeline Work to be Done
+Phase 1: Outline & 
+Literature Review 25 Apr – 10 May 2026
+Finalize scope, perform literature 
+review on RAG, mulW-agent 
+orchestraWon, disWllaWon, and 
+evaluator-based correcWon; submit 
+DissertaWon Abstract.Phase 2: Data 
+IngesWon & 
+Baseline RAG
+11 May – 4 Jun 2026
+Implement SEC ingesWon (PDFium2), 
+Snowﬂake integraWon, and basic 
+retriever; design Streamlit UI skeleton.
+Phase 3: MulW-
+Agent Architecture 
+& Teacher–Student 
+DisWllaWon
+5 Jun – 21 Jun 2026
+Build orchestrator in LangGraph; 
+teacher–student training for table 
+interpretaWon; conduct mid-semester 
+evaluaWon.
+Phase 4: Veriﬁer & 
+Evaluator Feedback 
+Loop
+22 Jun – 15 Jul 2026
+Add veriﬁer agents and evaluator self-
+correcWon logic; integrate cross-model 
+consistency checks.
+Phase 5: Docker 
+Packaging & 
+EvaluaWon
+16 Jul – 2 Aug 2026
+Complete Docker containerizaWon; run 
+benchmark evaluaWons; submit ﬁnal 
+dissertaWon report.
+Phase 6: 
+PresentaWon and 
+VIVA
+3 Aug – 28 Aug 2026
+Prepare evaluaWon dashboard; record 
+demonstraWon; appear for ﬁnal VIVA 
+examinaWon.
+
+--- PAGE 12 ---
+6. Literature References 
+A thorough understanding of exisWng stateolheart research underpins the success of 
+any project. The following publicaWons have been selected through a preliminary 
+literature survey as highly relevant to the proposed system, encompassing 
+retrievalaugmented generaWon, embedding techniques, mulWagent architectures, and 
+evaluator methodologies. 
+1. Lewis, P ., Perez, E., Piktus, A. et al., “RetrievalAugmented GeneraWon for KnowledgeIntensive
+ NLP Tasks,” NeurIPS, 2020. 
+2.Reimers, N. & Gurevych, I., “SentenceBERT: Sentence Embeddings using Siamese BERTNetwo
+rks,” EMNLP , 2019. 
+3. Asai, A., Wu, Z., Wang, Y ., Sil, A., & Hajishirzi, H., “SelfRAG: Learning to Retrieve, Generate, an
+d CriWque through SelfReﬂecWon,” arXiv:2310.11511, 2023. 
+4. Wang, J., Chen, J., Zheng, R. et al., “MixtureofAgents Enhances Large Language Model Capab
+iliWes,” arXiv:2406.04692, 2024. 
+5. Es, S., James, J., EspinosaAnke, L. & Schockaert, S., “RAGAS: Automated EvaluaWon of Retriev
+alAugmented GeneraWon,” arXiv:2309.15217, 2023. 
+6.Nogueira, M. & Cho, K., “Passage ReRanking with BERT,” arXiv:1901.04085, 2019. 
+7. Robertson, S. & Zaragoza, H., “The ProbabilisWc Relevance Framework: BM25 and Beyond,” F
+oundaWons and Trends in InformaWon Retrieval, 2009. 
+8. Chen, M., Zhou, J., Chang, K.W. & Wang, W. Y ., “TabFact: A LargeScale Dataset for TableBased
+ Fact VeriﬁcaWon,” AAAI, 2020. 
+9. Gao, L., Ma, X., Lin, J. & Callan, J., “Precise ZeroShot Dense Retrieval without Relevance Label
+s (HyDE),” ACL, 2023. 
+10.Tang, S., Zhou, Y ., & Yin, W., “Understanding Financial Documents via LLMs,” ACL Workshops, 
+2024 
+ 
+[11] Wen, Y ., Dong, Q., Miao, Z., et al., “FinGPT: OpenSource Financial Large Language Models,” a
+rXiv:2306.06031, 2023. 
+
+--- PAGE 13 ---
+ 
+[12] Liu, S., Huang, P ., & Zeng, A., “AutoRAG: RetrievalAugmented GeneraWon via Automated Ret
+riever SelecWon and OpWmizaWon,” arXiv:2402.00910, 2024. 
+ 
+[13] Zhang, X., Li, Y ., & Wang, B., “Unifying Text and Table Embeddings for Financial QuesWon Ans
+wering,” IEEE TransacWons on Knowledge and Data Engineering, 2025. 
+ 
+[14] Du, Z., Song, K., Wang, Y . et al., “GLM130B: An OpenBilingual PreTrained Model,” ICLR, 2023. 
+ 
+[15] Ni, J., Zhang, L., McAuley, J., “Learning To Retrieve Passages without Relevance Labels,” arXiv
+:2104.07567, 2021. 
+ 
+[16] Zhang, Y ., Zhao, Y ., Li, J., “The Evaluator Framework for Faithfulness in LLMGenerated Answe
+rs,” EMNLP Findings, 2024. 
+ 
+[17] Li, T., Fu, L. & Feng, S., “FinQA: A Dataset of Numerical Reasoning over Finance Texts,” EMNL
+P,   2 0 2 1 .  
+ 
+[18] Han, X., Reddy, R., et al., “LLMVeriﬁer: CrossModel VeriﬁcaWon Across GeneraWve Agents,” a
+rXiv:2403.03052, 2024. 
+ 
+[19] Nie, F., Jiang, Y ., & Pan, L., “LangGraph: Composable GraphBased Workﬂow for MulWAgent L
+LM Systems,” arXiv:2402.08145, 2024. 
+ 
+[20] Ribeiro, J. & Dogan, P ., “FaithEval: SystemaWc EvaluaWon of Faithfulness Metrics for RAG,” NA
+ACL Workshops, 2025 
+
+--- PAGE 14 ---
+
+
+--- PAGE 15 ---
+7. Par,culars of the Supervisor and Examiner 
+Supervisor Addi,onal Examiner
+Name ShivaChandran Masilamani Deepthi	B
+QualiﬁcaWon B.E	,MBA B.E,	Mtech
+DesignaWon Head	of	Investment Senior	Manager
+Employing 
+OrganizaWon and 
+LocaWon
+Voya Global Services Pvt Ltd, 
+Bengaluru, Karnataka 560045
+Voya Global Services Pvt Ltd, 
+Bengaluru, Karnataka 560045
+Phone No. (with STD 
+Code) +91-9886703300 +91-9844781964
+Email Address shivaChandran.masilamani@voya.co
+m
+deepthi.b@voya.com
+
+--- PAGE 16 ---
+8.  Remarks of the Supervisor 
+The paragraph is essenWally a supervisor’s formal endorsement and assessment of the dissertaWon 
+proposal by Karthik V, highlighWng its technical merit, research depth, and pracWcal signiﬁcance. 
+Here’s a detailed explanaWon of its meaning and implicaWons: 
+1.Technically strong and prac,cally relevant ini,a,ve addressing a cri,cal need in enterprise 
+ﬁnancial analy,cs. 
+1.This means the proposal is not only welldesigned from an engineering and AI 
+standpoint but also solves a realworld problem faced by businesses—parWcularly, 
+how to make ﬁnancial analysis more intelligent, accurate, and automated. It 
+balances academic research with pracWcal industrial applicaWon. 
+2.System design—featuring mul,-agent retrieval, teacher–student dis,lla,on, cross-model 
+veriﬁca,on, and evaluator-driven self-correc,on—demonstrates both academic rigor and 
+industrial applicability. 
+1.The supervisor recognizes that the system is composed of advanced and wellresearched 
+technical components.  
+1.Mul$-agent retrieval enables distributed informaWon gathering. 
+2.Teacher–student dis$lla$on improves learning eﬃciency. 
+3.Cross-model veriﬁca$on ensures factual reliability by comparing outputs 
+from mulWple AI models. 
+4.Evaluator-driven self-correc$on gives the system the ability to detect and ﬁx 
+its own inaccuracies. 
+2.Together, these elements make the project scienWﬁcally rigorous (suitable for 
+research) and immediately useful for real industrial scenarios (suitable for 
+deployment). 
+3.The student’s approach combines established research from retrieval-augmented genera,on 
+and self-correc,ng AI with an emphasis on trustworthy and explainable answers. 
+1.The work builds upon proven concepts in RAG and self-correcWng AI systems, but 
+extends them toward trustworthy AI, focusing on outputs that can be veriﬁed, 
+explained, and jusWﬁed—criWcal aspects in ﬁnancial domains where data accuracy is 
+nonnegoWable. 
+4.The design ensures on-premise, compliant opera,on suitable for ﬁnancial ecosystems. 
+1.The soluWon is developed to run within an organizaWon’s infrastructure (onpremise), 
+protecWng sensiWve ﬁnancial data and maintaining compliance with 
+informaWonsecurity and datagovernance regulaWons. This aligns perfectly with how 
+real ﬁnancial insWtuWons handle conﬁdenWal data. 
+5.Given the structured plan, achievable milestones, and clear deliverables 
+1.The supervisor conﬁrms that the project Wmeline, goals, and implementaWon steps 
+are welldeﬁned and realisWc. The student demonstrates a clear understanding of 
+how to complete the research successfully within the academic schedule. 
+6.Meets the academic depth required at the M.Tech level and holds poten,al for publica,on-
+grade results and industrial deployment 
+
+--- PAGE 17 ---
+1.The project is of suﬃcient intellectual and technical depth to fulﬁll the requirements 
+of a Master’s dissertaWon. Moreover, the quality and novelty of the work could lead 
+to academic publicaWons or realworld adopWon within the ﬁnancial industry. 
+7.The proposal is approved and supervision will be provided throughout all research phases. 
+1.This is the oﬃcial validaWon that the supervisor endorses the proposal. It means the 
+project has been accepted as an M.Tech dissertaWon topic, and the student will 
+receive conWnuous mentorship and evaluaWon during development, 
+experimentaWon, and documentaWon stages. 
+In summary, the secWon expresses that Karthik V’s dissertaWon is welljusWﬁed, technologically 
+advanced, academically rigorous, and pracWcally deployable, and that the supervisor fully supports 
+and approves its execuWon and evaluaWon. 
+Informa,on about the Supervisor: 
+Name: ShivaChandran Masilamani 
+Designa,on: Head of Investments 
+Organisa,on: Voya Global Services Pvt Ltd, Bengaluru, Karnataka 560045 
+Email: shivachandran.masilamani@voya.com 
+Signature of Student Signature of Supervisor Signature of Addi,onal 
+Examiner
+Name:  Karthik	V Name: ShivaChandran	
+Masilamani Name: Deepthi	B
+
+=== PPTX EXTRACT ===
+
+--- SLIDE 1 ---
+Self-Correcting FinancialIntelligence System
+End-to-End Multi-Agent RAG PipelineM.Tech DissertationKarthik V | May 2026
+
+--- SLIDE 2 ---
+Project Overview
+• Dissertation: Self-Correcting Financial Intelligence Systems
+• Focus: Natural Language Processing, Information Retrieval, Financial Document Understanding
+• Organization: Voya Global Services Pvt Ltd
+• Supervisor: ShivaChandran Masilamani (Head of Investments)
+• Program: M.Tech in Artificial Intelligence and Machine Learning
+• Key Goal: Trustworthy, explainable AI for enterprise financial analytics
+
+--- SLIDE 3 ---
+Problem Statement
+• Financial analysts manually query fragmented data ecosystems (Snowflake, SEC filings, audit docs)
+• Current RAG systems generate hallucinated/unverifiable results
+• Lack domain-adapted embeddings for financial entities and numerical tables
+• Privacy concerns with cloud-hosted LLMs in enterprise contexts
+• Static single-retriever pipelines cannot identify or correct their own errors
+• Manual validation creates latency, redundancy, and inconsistent results
+
+--- SLIDE 4 ---
+Core Objectives
+✓ Design multi-agent RAG framework with LangGraph orchestration
+✓ Implement Teacher-Student distillation for optimized tabular reasoning
+✓ Develop hybrid retrieval (FAISS + BM25) for structured & unstructured data
+✓ Build Evaluator agent for intelligent self-correction
+✓ Design Cross-Model Verification engine for consensus validation
+✓ Deploy as containerized, privacy-compliant on-premise solution
+
+--- SLIDE 5 ---
+System Architecture Components
+1. Retrieval Layer: Hybrid search (Semantic FAISS + Lexical BM25)
+2. Reasoning Layer: Teacher-Student distillation with fine-tuned embeddings
+3. Verification Layer: Multi-model cross-verification for hallucination detection
+4. Evaluation Layer: Evaluator agent assessing faithfulness & numerical consistency
+5. Orchestration Layer: LangGraph-based workflow engine
+6. Backend: FastAPI REST APIs for scalable async processing
+7. Frontend: Streamlit UI for explainability and user trust
+
+--- SLIDE 6 ---
+End-to-End Pipeline
+STEP 1: Data Ingestion → SEC 10K + Snowflake databases
+STEP 2: Hybrid Retrieval → FAISS (semantic) + BM25 (keyword) search
+STEP 3: Reader Agent → Extract context and prepare evidence
+STEP 4: Teacher Model → Deep understanding of tables and text
+STEP 5: Student Model → Lightweight, optimized reasoning
+STEP 6: Evaluator Assessment → Confidence scoring and consistency checks
+STEP 7: Cross-Verification → Multiple LLMs validate consensus
+STEP 8: Self-Correction Loop → Re-retrieve if confidence < threshold
+
+--- SLIDE 7 ---
+Key Working Models
+• Retrieval-Augmented Generation (RAG): Combines context retrieval with LLM reasoning
+• Multi-Agent Orchestration: Retriever, Reader, Verifier, Evaluator agents collaborate
+• Teacher-Student Distillation: Large model supervises compact model training
+• Evaluator-in-the-Loop: Continuous assessment with automatic error correction
+• Cross-Model Verification: Consensus voting across multiple LLMs
+• Hybrid Retrieval Scoring: Weighted combination of semantic + lexical relevance
+
+--- SLIDE 8 ---
+Technical Implementation
+🔹 Data Ingestion: PDFium2 for SEC filings, native Snowflake connector
+🔹 Vector Search: FAISS for efficient semantic similarity at scale
+🔹 Keyword Matching: BM25 probabilistic relevance framework
+🔹 Embedding Models: Domain-adapted embeddings from SEC financial datasets
+🔹 LLM Integration: Open-source models (Ollama, GLM-130B) for on-premise deployment
+🔹 Orchestration: LangGraph for dynamic task routing and feedback propagation
+
+--- SLIDE 9 ---
+Hybrid Retrieval: FAISS + BM25
+FAISS (Dense Vector Search):
+  • Semantic understanding via embeddings
+  • Captures meaning and context of financial queries
+
+BM25 (Sparse Keyword Matching):
+  • Exact keyword matching for financial terminology
+  • Ensures lexical precision for specific entities
+
+Weighted Scoring: Combined score = α·FAISS_score + β·BM25_score
+
+--- SLIDE 10 ---
+Evaluator Self-Correction Mechanism
+Multi-Criteria Scoring:
+  ✓ Relevance Score: Is answer addressing the query?
+  ✓ Factual Consistency: Can results be verified against evidence?
+  ✓ Numerical Coherence: Are financial figures mathematically sound?
+  ✓ Entailment Score: Does evidence logically support the answer?
+
+Auto-Correction Triggers:
+  → If confidence < threshold → Query reformulation
+  → Trigger re-retrieval or passage reranking
+
+--- SLIDE 11 ---
+Deployment & Infrastructure
+🐳 Containerization: Docker for reproducible, portable deployments
+⚙️ Configuration: YAML-based orchestrator for easy customization
+🔐 Data Privacy: On-premise deployment, no external data transmission
+📡 Backend: FastAPI for RESTful APIs with async processing
+🎨 Frontend: Streamlit for interactive queries & confidence visualization
+📊 Database: Native Snowflake integration with structured/unstructured data
+
+--- SLIDE 12 ---
+Evaluation Metrics
+Retrieval Performance:
+  • Precision@K, Mean Reciprocal Rank (MRR), NDCG
+
+Reasoning Performance:
+  • Faithfulness Score, Hallucination Detection Accuracy
+  • Numerical Consistency, Semantic Relevance
+
+System-level Performance:
+  • Cross-Model Agreement Rate
+  • End-to-end accuracy on financial question answering tasks
+  • Inference latency and resource utilization
+
+--- SLIDE 13 ---
+Project Timeline
+Phase 1 (Apr 25 - May 10): Literature review & abstract submission
+Phase 2 (May 11 - Jun 4): Data ingestion & baseline RAG implementation
+Phase 3 (Jun 5 - Jun 21): Multi-agent orchestration & teacher-student distillation
+Phase 4 (Jun 22 - Jul 15): Verifier & evaluator feedback loop integration
+Phase 5 (Jul 16 - Aug 2): Docker packaging & benchmark evaluations
+Phase 6 (Aug 3 - Aug 28): Final presentation & VIVA examination
+
+--- SLIDE 14 ---
+Key Deliverables
+✅ Multi-agent orchestration framework (LangGraph)
+✅ Hybrid retrieval pipeline (FAISS + BM25 integration)
+✅ Teacher-Student distillation module for table reasoning
+✅ Evaluator-driven self-correction mechanism
+✅ Cross-model verification engine
+✅ FastAPI backend with REST endpoints
+✅ Streamlit interactive UI with explainability
+✅ Docker containerized deployment package
+
+--- SLIDE 15 ---
+Expected Outcomes & Impact
+🎯 Trustworthy Financial Intelligence: Verifiable, explainable AI for financial analytics
+🎯 Enterprise Deployment: Private, compliant, on-premise solution
+🎯 Self-Improving System: Automatic error detection and correction capability
+🎯 Scalable Architecture: Modular design supporting multiple use cases
+🎯 Publication Potential: Research contributions in RAG, multi-agent systems, evaluator frameworks
+🎯 Industry Adoption: Ready for deployment in financial services enterprises
+
+--- SLIDE 16 ---
+Conclusion
+Self-Correcting Financial Intelligence System combines:
+  • Multi-agent retrieval and reasoning
+  • Teacher-student knowledge transfer
+  • Continuous evaluator-driven feedback
+  • Cross-model verification for trustworthiness
+
+Result: An intelligent, self-improving financial assistant
+Suitable for enterprise deployment with explainability and regulatory compliance

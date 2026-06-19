@@ -1,0 +1,7 @@
+0000000000000000000000000000000000000000 858615bb9df7946adca4b3206ea3b3b0271dec6a Karthik V <karthikv@Mac.lan> 1779729550 +0530	clone: from https://github.com/karthikking488/Mtech_project.git
+858615bb9df7946adca4b3206ea3b3b0271dec6a 842ad84ca9ebcfc304aa42550dc72751082523fc Karthik V <karthikv@Mac.lan> 1779729906 +0530	commit: Initial commit: Self-Correcting Financial Intelligence System - Complete end-to-end multi-agent RAG pipeline with hybrid retrieval, teacher-student distillation, evaluator-driven self-correction, and enterprise deployment
+842ad84ca9ebcfc304aa42550dc72751082523fc 1a15faeafb0929acd4fa40f7a1123b0ea23582cf Karthik v <karthik.v@voya.com> 1779808522 -0400	commit: FinIQ: real embeddings, dynamic confidence, Snowflake integration, architecture diagram
+1a15faeafb0929acd4fa40f7a1123b0ea23582cf 1a15faeafb0929acd4fa40f7a1123b0ea23582cf Karthik v <karthik.v@voya.com> 1779808745 -0400	checkout: moving from main to feature/finiq-multiagent-rag
+1a15faeafb0929acd4fa40f7a1123b0ea23582cf aa826065c546cf3433c4b1b7759cfa17be50e5c0 Karthik V <karthikv@Mac.lan> 1781843214 +0530	commit: first commit
+aa826065c546cf3433c4b1b7759cfa17be50e5c0 0000000000000000000000000000000000000000 Karthik V <karthikv@Mac.lan> 1781843214 +0530	Branch: renamed refs/heads/feature/finiq-multiagent-rag to refs/heads/main
+0000000000000000000000000000000000000000 aa826065c546cf3433c4b1b7759cfa17be50e5c0 Karthik V <karthikv@Mac.lan> 1781843214 +0530	Branch: renamed refs/heads/feature/finiq-multiagent-rag to refs/heads/main

@@ -1,0 +1,49 @@
+{
+  "workflow_id": "workflow_20260526_082319",
+  "start_time": "2026-05-26T08:23:19.921424",
+  "stages": {
+    "health_check": {
+      "status": "passed",
+      "health": {
+        "status": "healthy",
+        "version": "1.0.0",
+        "components": {
+          "retrieval": "operational",
+          "reasoning": "operational",
+          "evaluation": "operational",
+          "orchestration": "operational"
+        }
+      }
+    },
+    "document_loading": {
+      "status": "passed",
+      "documents_loaded": 3,
+      "total_characters": 532
+    },
+    "query_formulation": {
+      "status": "passed",
+      "queries_count": 5
+    },
+    "query_execution": {
+      "status": "passed",
+      "successful_queries": 5,
+      "failed_queries": 0,
+      "total_queries": 5
+    },
+    "result_evaluation": {
+      "status": "passed",
+      "evaluation_metrics": {
+        "total_results": 5,
+        "average_confidence": 0.0,
+        "high_confidence_count": 0,
+        "high_confidence_pct": 0.0,
+        "average_corrections": 0.0
+      }
+    },
+    "report_generation": {
+      "status": "passed",
+      "report_sections": 5
+    }
+  },
+  "end_time": "2026-05-26T08:23:22.475258"
+}

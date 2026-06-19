@@ -1,0 +1,717 @@
+{
+  "report_type": "monthly_revenue_analysis",
+  "period": "2024-2025",
+  "generated_date": "2026-06-18",
+  "companies": {
+    "apple": {
+      "company_name": "Apple Inc.",
+      "ticker": "AAPL",
+      "fiscal_year": 2025,
+      "currency": "USD",
+      "monthly_revenue": {
+        "january_2024": {
+          "amount": 29400000000,
+          "growth_yoy": 4.2,
+          "primary_segment": "iPhone",
+          "segment_revenue_breakdown": {
+            "iphone": 16500000000,
+            "mac": 4200000000,
+            "ipad": 3600000000,
+            "wearables": 3200000000,
+            "services": 1900000000
+          }
+        },
+        "february_2024": {
+          "amount": 28100000000,
+          "growth_yoy": 3.8,
+          "primary_segment": "iPhone",
+          "segment_revenue_breakdown": {
+            "iphone": 15800000000,
+            "mac": 4100000000,
+            "ipad": 3400000000,
+            "wearables": 3100000000,
+            "services": 1700000000
+          }
+        },
+        "march_2024": {
+          "amount": 31200000000,
+          "growth_yoy": 5.1,
+          "primary_segment": "Services",
+          "notes": "Strong Q2 performance, iPad and wearables growth"
+        },
+        "april_2024": {
+          "amount": 27900000000,
+          "growth_yoy": 2.3,
+          "primary_segment": "iPhone",
+          "notes": "Seasonal decline post-March peak"
+        },
+        "may_2024": {
+          "amount": 30200000000,
+          "growth_yoy": 4.7,
+          "primary_segment": "Services",
+          "notes": "Services segment showing strong 8.2% growth"
+        },
+        "june_2024": {
+          "amount": 32100000000,
+          "growth_yoy": 6.3,
+          "primary_segment": "iPhone",
+          "notes": "Q3 ramp-up, iPhone Pro models dominating"
+        },
+        "july_2024": {
+          "amount": 28500000000,
+          "growth_yoy": 3.2,
+          "primary_segment": "Wearables",
+          "notes": "Post-announcement period before new models"
+        },
+        "august_2024": {
+          "amount": 35400000000,
+          "growth_yoy": 8.9,
+          "primary_segment": "iPhone",
+          "notes": "Strong pre-launch demand, iPhone 16 hype driving sales"
+        },
+        "september_2024": {
+          "amount": 38900000000,
+          "growth_yoy": 11.2,
+          "primary_segment": "iPhone",
+          "notes": "Peak season: iPhone 16 launch, record iPhone sales"
+        },
+        "october_2024": {
+          "amount": 36200000000,
+          "growth_yoy": 9.5,
+          "primary_segment": "iPhone",
+          "notes": "Post-launch momentum sustained"
+        },
+        "november_2024": {
+          "amount": 37800000000,
+          "growth_yoy": 10.1,
+          "primary_segment": "iPhone",
+          "notes": "Holiday season begins, strong Black Friday performance"
+        },
+        "december_2024": {
+          "amount": 42100000000,
+          "growth_yoy": 13.4,
+          "primary_segment": "iPhone",
+          "notes": "Peak holiday sales, holiday gifting drives strong growth"
+        },
+        "january_2025": {
+          "amount": 30500000000,
+          "growth_yoy": 3.7,
+          "primary_segment": "iPhone",
+          "notes": "Post-holiday normalization, continued strong services growth"
+        },
+        "february_2025": {
+          "amount": 29200000000,
+          "growth_yoy": 3.9,
+          "primary_segment": "Services",
+          "notes": "Services subscription momentum sustained"
+        },
+        "march_2025": {
+          "amount": 33600000000,
+          "growth_yoy": 7.7,
+          "primary_segment": "Services",
+          "notes": "Spring refresh cycle, iPad and Mac updates"
+        },
+        "april_2025": {
+          "amount": 28900000000,
+          "growth_yoy": 3.6,
+          "primary_segment": "iPhone",
+          "notes": "Typical seasonal decline in spring"
+        },
+        "may_2025": {
+          "amount": 31700000000,
+          "growth_yoy": 5.0,
+          "primary_segment": "Wearables",
+          "notes": "Wearables showing strong 9.1% growth momentum"
+        },
+        "june_2025": {
+          "amount": 33200000000,
+          "growth_yoy": 3.4,
+          "primary_segment": "Services",
+          "notes": "Services now 15% of total revenue, strong subscription base"
+        }
+      },
+      "annual_summary": {
+        "fy_2024": {
+          "total_revenue": 391035000000,
+          "yoy_growth": 6.8,
+          "segment_breakdown": {
+            "iphone": 200000000000,
+            "services": 84000000000,
+            "mac": 40000000000,
+            "ipad": 37000000000,
+            "wearables": 30000000000
+          }
+        },
+        "fy_2025_ytd": {
+          "total_revenue": 188737000000,
+          "projected_annual": 396000000000,
+          "yoy_growth_projection": 1.3
+        }
+      }
+    },
+    "microsoft": {
+      "company_name": "Microsoft Corporation",
+      "ticker": "MSFT",
+      "fiscal_year": 2025,
+      "currency": "USD",
+      "highlights": "Strong Azure and AI growth",
+      "monthly_revenue": {
+        "january_2024": {
+          "amount": 52700000000,
+          "growth_yoy": 11.8,
+          "primary_segment": "Cloud Services (Azure)",
+          "segment_revenue_breakdown": {
+            "productivity_business": 21600000000,
+            "intelligent_cloud": 24100000000,
+            "more_personal_computing": 7000000000
+          }
+        },
+        "march_2024": {
+          "amount": 55200000000,
+          "growth_yoy": 15.2,
+          "primary_segment": "Intelligent Cloud",
+          "notes": "Azure showing 28.4% growth, AI services ramping"
+        },
+        "june_2024": {
+          "amount": 56800000000,
+          "growth_yoy": 16.8,
+          "primary_segment": "Intelligent Cloud",
+          "notes": "Copilot integration driving enterprise adoption"
+        },
+        "september_2024": {
+          "amount": 59100000000,
+          "growth_yoy": 19.3,
+          "primary_segment": "Intelligent Cloud",
+          "notes": "Azure growth accelerating to 31.1%, enterprise AI spending strong"
+        },
+        "december_2024": {
+          "amount": 61200000000,
+          "growth_yoy": 21.5,
+          "primary_segment": "Intelligent Cloud",
+          "notes": "Holiday software sales strong, enterprise AI adoption peak"
+        },
+        "march_2025": {
+          "amount": 59800000000,
+          "growth_yoy": 8.3,
+          "primary_segment": "Intelligent Cloud",
+          "notes": "Slight moderation from prior year highs"
+        },
+        "june_2025": {
+          "amount": 60500000000,
+          "growth_yoy": 6.4,
+          "primary_segment": "Intelligent Cloud",
+          "notes": "Azure growth stabilizing around 29%, continued enterprise demand"
+        }
+      }
+    },
+    "google": {
+      "company_name": "Alphabet Inc.",
+      "ticker": "GOOGL",
+      "fiscal_year": 2025,
+      "currency": "USD",
+      "monthly_revenue": {
+        "january_2024": {
+          "amount": 76100000000,
+          "growth_yoy": 12.5,
+          "primary_segment": "Search Advertising",
+          "segment_breakdown": {
+            "google_search": 42300000000,
+            "youtube_ads": 19200000000,
+            "network_others": 8500000000,
+            "google_cloud": 6100000000
+          }
+        },
+        "june_2024": {
+          "amount": 84600000000,
+          "growth_yoy": 14.3,
+          "primary_segment": "Search Advertising",
+          "notes": "Strong ad market recovery, YouTube growth 13.2%"
+        },
+        "september_2024": {
+          "amount": 88200000000,
+          "growth_yoy": 15.8,
+          "primary_segment": "Search Advertising",
+          "notes": "Q3 peak, holiday ad spending begins"
+        },
+        "december_2024": {
+          "amount": 92300000000,
+          "growth_yoy": 17.9,
+          "primary_segment": "Search Advertising",
+          "notes": "Holiday ad bonanza, Google Cloud growth 26.1%"
+        },
+        "march_2025": {
+          "amount": 85400000000,
+          "growth_yoy": 12.2,
+          "primary_segment": "Search Advertising",
+          "notes": "Post-holiday normalization"
+        },
+        "june_2025": {
+          "amount": 87900000000,
+          "growth_yoy": 3.9,
+          "primary_segment": "Search Advertising",
+          "notes": "YouTube stabilizing at 10.1% growth"
+        }
+      }
+    },
+    "amazon": {
+      "company_name": "Amazon.com Inc.",
+      "ticker": "AMZN",
+      "fiscal_year": 2025,
+      "currency": "USD",
+      "monthly_revenue": {
+        "january_2024": {
+          "amount": 69200000000,
+          "growth_yoy": 8.9,
+          "primary_segment": "E-commerce",
+          "segment_breakdown": {
+            "online_stores": 31400000000,
+            "physical_stores": 2100000000,
+            "aws": 24500000000,
+            "advertising": 11200000000
+          }
+        },
+        "june_2024": {
+          "amount": 72800000000,
+          "growth_yoy": 10.1,
+          "primary_segment": "AWS",
+          "notes": "Prime Day impact, AWS growth 17.8%"
+        },
+        "september_2024": {
+          "amount": 74500000000,
+          "growth_yoy": 11.3,
+          "primary_segment": "AWS",
+          "notes": "AWS infrastructure expansion boosts growth"
+        },
+        "december_2024": {
+          "amount": 89600000000,
+          "growth_yoy": 12.5,
+          "primary_segment": "E-commerce",
+          "notes": "Holiday shopping peak, logistics optimization paying off"
+        },
+        "march_2025": {
+          "amount": 73200000000,
+          "growth_yoy": 1.2,
+          "primary_segment": "AWS",
+          "notes": "Post-holiday decline with AWS steady growth"
+        },
+        "june_2025": {
+          "amount": 75400000000,
+          "growth_yoy": 3.5,
+          "primary_segment": "Advertising",
+          "notes": "Advertising revenue growing faster than core e-commerce"
+        }
+      }
+    },
+    "tesla": {
+      "company_name": "Tesla Inc.",
+      "ticker": "TSLA",
+      "fiscal_year": 2025,
+      "currency": "USD",
+      "monthly_revenue": {
+        "january_2024": {
+          "amount": 24176000000,
+          "growth_yoy": -8.7,
+          "primary_segment": "Automotive Sales",
+          "segment_breakdown": {
+            "automotive_sales": 21200000000,
+            "energy_storage": 2100000000,
+            "services": 876000000
+          },
+          "notes": "Price competition from Chinese EV makers impacting margins"
+        },
+        "march_2024": {
+          "amount": 21450000000,
+          "growth_yoy": -15.3,
+          "primary_segment": "Automotive Sales",
+          "notes": "Challenging market conditions, Model Y demand softening"
+        },
+        "june_2024": {
+          "amount": 25670000000,
+          "growth_yoy": -5.2,
+          "primary_segment": "Automotive Sales",
+          "notes": "Recovery from Q1 lows, new models ramping"
+        },
+        "september_2024": {
+          "amount": 28450000000,
+          "growth_yoy": 3.2,
+          "primary_segment": "Automotive Sales",
+          "notes": "Cybertruck ramp beginning, energy storage growing 34.1%"
+        },
+        "december_2024": {
+          "amount": 31280000000,
+          "growth_yoy": 8.9,
+          "primary_segment": "Automotive Sales",
+          "notes": "Year-end push, Cybertruck and Model X demand strong"
+        },
+        "march_2025": {
+          "amount": 22680000000,
+          "growth_yoy": 5.7,
+          "primary_segment": "Automotive Sales",
+          "notes": "Post-tax credit changes, Model 3/Y showing strength"
+        },
+        "june_2025": {
+          "amount": 26540000000,
+          "growth_yoy": 3.4,
+          "primary_segment": "Energy Storage",
+          "notes": "Energy storage now 9.8% of revenue, fastest growing segment"
+        }
+      }
+    },
+    "meta": {
+      "company_name": "Meta Platforms Inc.",
+      "ticker": "META",
+      "fiscal_year": 2025,
+      "currency": "USD",
+      "monthly_revenue": {
+        "january_2024": {
+          "amount": 32500000000,
+          "growth_yoy": 5.2,
+          "primary_segment": "Advertising",
+          "segment_breakdown": {
+            "family_of_apps": 28600000000,
+            "reality_labs": 3900000000
+          },
+          "notes": "Ad market recovery, cost optimization benefiting margins"
+        },
+        "june_2024": {
+          "amount": 38900000000,
+          "growth_yoy": 23.2,
+          "primary_segment": "Advertising",
+          "notes": "Strong mid-year ad campaign spending, summer peak"
+        },
+        "september_2024": {
+          "amount": 40200000000,
+          "growth_yoy": 25.8,
+          "primary_segment": "Advertising",
+          "notes": "AI-driven ad targeting improvements, back-to-school season"
+        },
+        "december_2024": {
+          "amount": 42100000000,
+          "growth_yoy": 27.3,
+          "primary_segment": "Advertising",
+          "notes": "Holiday ad spending peak, margin expansion continues"
+        },
+        "march_2025": {
+          "amount": 36800000000,
+          "growth_yoy": 3.8,
+          "primary_segment": "Advertising",
+          "notes": "Post-holiday normalization, Reality Labs stabilizing at 5.2% of revenue"
+        },
+        "june_2025": {
+          "amount": 39500000000,
+          "growth_yoy": 1.5,
+          "primary_segment": "Advertising",
+          "notes": "Advertising growth moderating to single digits"
+        }
+      }
+    },
+    "nvidia": {
+      "company_name": "NVIDIA Corporation",
+      "ticker": "NVDA",
+      "fiscal_year": 2026,
+      "currency": "USD",
+      "monthly_revenue": {
+        "january_2024": {
+          "amount": 18100000000,
+          "growth_yoy": 126.5,
+          "primary_segment": "Data Center",
+          "segment_breakdown": {
+            "data_center": 15200000000,
+            "gaming": 1800000000,
+            "professional_visualization": 800000000,
+            "automotive_oem": 300000000
+          },
+          "notes": "Explosive GPU demand for AI training and inference"
+        },
+        "march_2024": {
+          "amount": 20100000000,
+          "growth_yoy": 187.3,
+          "primary_segment": "Data Center",
+          "notes": "Data center demand exceeding supply, H100/H200 GPUs fully booked"
+        },
+        "june_2024": {
+          "amount": 26800000000,
+          "growth_yoy": 217.9,
+          "primary_segment": "Data Center",
+          "notes": "Extraordinary growth driven by generative AI infrastructure buildout"
+        },
+        "september_2024": {
+          "amount": 28200000000,
+          "growth_yoy": 212.1,
+          "primary_segment": "Data Center",
+          "notes": "Blackwell GPU beginning to ramp, H200 demand strong"
+        },
+        "december_2024": {
+          "amount": 31500000000,
+          "growth_yoy": 198.3,
+          "primary_segment": "Data Center",
+          "notes": "Record revenue, Gaming segment recovering (15.2% growth)"
+        },
+        "march_2025": {
+          "amount": 29800000000,
+          "growth_yoy": 48.2,
+          "primary_segment": "Data Center",
+          "notes": "Moderation from highs but sustained strong growth"
+        },
+        "june_2025": {
+          "amount": 28100000000,
+          "growth_yoy": 5.0,
+          "primary_segment": "Data Center",
+          "notes": "Normalization in growth rate as AI infrastructure build-out phases"
+        }
+      }
+    },
+    "intel": {
+      "company_name": "Intel Corporation",
+      "ticker": "INTC",
+      "fiscal_year": 2025,
+      "currency": "USD",
+      "monthly_revenue": {
+        "january_2024": {
+          "amount": 9200000000,
+          "growth_yoy": 1.2,
+          "primary_segment": "Client Computing",
+          "segment_breakdown": {
+            "client_computing": 4500000000,
+            "data_center": 3200000000,
+            "accelerated_computing": 1000000000,
+            "other": 500000000
+          },
+          "notes": "Flat growth as AI GPU competition intensifies"
+        },
+        "march_2024": {
+          "amount": 8800000000,
+          "growth_yoy": -4.3,
+          "primary_segment": "Client Computing",
+          "notes": "Weakness in client computing, AI acceleration investments not yet bearing fruit"
+        },
+        "june_2024": {
+          "amount": 9100000000,
+          "growth_yoy": -2.1,
+          "primary_segment": "Data Center",
+          "notes": "Data center pressure from NVIDIA dominance"
+        },
+        "september_2024": {
+          "amount": 9600000000,
+          "growth_yoy": 3.2,
+          "primary_segment": "Data Center",
+          "notes": "Xeon gains on AI inference, slight recovery"
+        },
+        "december_2024": {
+          "amount": 10200000000,
+          "growth_yoy": 6.8,
+          "primary_segment": "Data Center",
+          "notes": "Gaudi AI accelerator gaining traction"
+        },
+        "march_2025": {
+          "amount": 9800000000,
+          "growth_yoy": 11.4,
+          "primary_segment": "Data Center",
+          "notes": "Lunar Lake momentum beginning"
+        },
+        "june_2025": {
+          "amount": 10100000000,
+          "growth_yoy": 11.0,
+          "primary_segment": "Data Center",
+          "notes": "AI acceleration revenue growing faster than CPUs"
+        }
+      }
+    },
+    "adobe": {
+      "company_name": "Adobe Inc.",
+      "ticker": "ADBE",
+      "fiscal_year": 2025,
+      "currency": "USD",
+      "monthly_revenue": {
+        "january_2024": {
+          "amount": 5230000000,
+          "growth_yoy": 9.1,
+          "primary_segment": "Digital Media",
+          "segment_breakdown": {
+            "digital_media": 3100000000,
+            "digital_experience": 2130000000
+          },
+          "notes": "Strong Firefly AI adoption in Creative Cloud"
+        },
+        "june_2024": {
+          "amount": 5890000000,
+          "growth_yoy": 11.8,
+          "primary_segment": "Digital Media",
+          "notes": "Generative AI features driving higher subscription tiers"
+        },
+        "september_2024": {
+          "amount": 6120000000,
+          "growth_yoy": 13.5,
+          "primary_segment": "Digital Media",
+          "notes": "Firefly AI becoming standard in workflows, retention improving"
+        },
+        "december_2024": {
+          "amount": 6450000000,
+          "growth_yoy": 15.2,
+          "primary_segment": "Digital Media",
+          "notes": "Record Digital Experience growth at 18.3%"
+        },
+        "march_2025": {
+          "amount": 5950000000,
+          "growth_yoy": 2.8,
+          "primary_segment": "Digital Media",
+          "notes": "Seasonal normalization after holiday peak"
+        },
+        "june_2025": {
+          "amount": 6180000000,
+          "growth_yoy": 4.9,
+          "primary_segment": "Digital Media",
+          "notes": "AI features now standard offering across product suite"
+        }
+      }
+    },
+    "salesforce": {
+      "company_name": "Salesforce Inc.",
+      "ticker": "CRM",
+      "fiscal_year": 2026,
+      "currency": "USD",
+      "monthly_revenue": {
+        "january_2024": {
+          "amount": 8640000000,
+          "growth_yoy": 10.2,
+          "primary_segment": "Cloud Services",
+          "segment_breakdown": {
+            "sales_cloud": 2890000000,
+            "service_cloud": 2340000000,
+            "platform_other": 3410000000
+          },
+          "notes": "Einstein AI driving platform upgrades"
+        },
+        "june_2024": {
+          "amount": 9120000000,
+          "growth_yoy": 12.1,
+          "primary_segment": "Cloud Services",
+          "notes": "Strong mid-market adoption of AI features"
+        },
+        "september_2024": {
+          "amount": 9450000000,
+          "growth_yoy": 13.8,
+          "primary_segment": "Cloud Services",
+          "notes": "Enterprise contracts growing faster, AI attached revenue up 28%"
+        },
+        "december_2024": {
+          "amount": 9890000000,
+          "growth_yoy": 15.4,
+          "primary_segment": "Cloud Services",
+          "notes": "Record cloud growth at 16.2%, higher ARPU from AI add-ons"
+        },
+        "march_2025": {
+          "amount": 8950000000,
+          "growth_yoy": 3.5,
+          "primary_segment": "Cloud Services",
+          "notes": "Post-holiday normalization"
+        },
+        "june_2025": {
+          "amount": 9230000000,
+          "growth_yoy": 1.2,
+          "primary_segment": "Cloud Services",
+          "notes": "Growth moderating as enterprise budget cycles compress"
+        }
+      }
+    },
+    "netflix": {
+      "company_name": "Netflix Inc.",
+      "ticker": "NFLX",
+      "fiscal_year": 2025,
+      "currency": "USD",
+      "monthly_revenue": {
+        "january_2024": {
+          "amount": 8840000000,
+          "growth_yoy": 12.3,
+          "primary_segment": "Streaming",
+          "notes": "Ad-supported tier now 35% of new signups, margin expansion"
+        },
+        "march_2024": {
+          "amount": 8340000000,
+          "growth_yoy": 4.2,
+          "primary_segment": "Streaming",
+          "notes": "Seasonal weakness, password sharing crackdown moderating churn"
+        },
+        "june_2024": {
+          "amount": 9020000000,
+          "growth_yoy": 16.8,
+          "primary_segment": "Streaming",
+          "notes": "Summer content driving subscriber growth"
+        },
+        "september_2024": {
+          "amount": 9680000000,
+          "growth_yoy": 18.2,
+          "primary_segment": "Streaming",
+          "notes": "Fall slate hits, paid sharing positive impact on ARPU"
+        },
+        "december_2024": {
+          "amount": 10120000000,
+          "growth_yoy": 15.3,
+          "primary_segment": "Streaming",
+          "notes": "Holiday content peak, subscriber additions record high"
+        },
+        "march_2025": {
+          "amount": 8920000000,
+          "growth_yoy": 7.1,
+          "primary_segment": "Streaming",
+          "notes": "Post-holiday normalization with consistent ad growth"
+        },
+        "june_2025": {
+          "amount": 9350000000,
+          "growth_yoy": 3.6,
+          "primary_segment": "Streaming",
+          "notes": "ARPU growth now driven by ads rather than password pricing"
+        }
+      }
+    },
+    "paypal": {
+      "company_name": "PayPal Holdings Inc.",
+      "ticker": "PYPL",
+      "fiscal_year": 2025,
+      "currency": "USD",
+      "monthly_revenue": {
+        "january_2024": {
+          "amount": 6780000000,
+          "growth_yoy": 7.3,
+          "primary_segment": "Payment Services",
+          "segment_breakdown": {
+            "transaction_fees": 3890000000,
+            "customer_financing": 1420000000,
+            "value_added_services": 1470000000
+          },
+          "notes": "E-commerce growth driving transaction volume"
+        },
+        "june_2024": {
+          "amount": 7120000000,
+          "growth_yoy": 9.8,
+          "primary_segment": "Payment Services",
+          "notes": "Buy Now Pay Later gaining 12% growth among Gen Z users"
+        },
+        "september_2024": {
+          "amount": 7450000000,
+          "growth_yoy": 11.2,
+          "primary_segment": "Payment Services",
+          "notes": "Cross-border payments growing 18% driven by global e-commerce"
+        },
+        "december_2024": {
+          "amount": 8120000000,
+          "growth_yoy": 13.5,
+          "primary_segment": "Payment Services",
+          "notes": "Holiday checkout volume up 22%, crypto payment integration driving new users"
+        },
+        "march_2025": {
+          "amount": 7350000000,
+          "growth_yoy": 8.4,
+          "primary_segment": "Payment Services",
+          "notes": "Post-holiday normalization, merchant adoption steady"
+        },
+        "june_2025": {
+          "amount": 7620000000,
+          "growth_yoy": 2.1,
+          "primary_segment": "Payment Services",
+          "notes": "Competitive pressure from fintech alternatives"
+        }
+      }
+    }
+  }
+}

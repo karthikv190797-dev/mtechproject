@@ -1,0 +1,64 @@
+================================================================================
+SEC FILING - 10-K ANNUAL REPORT
+TESLA, INC.
+Year Ended December 31, 2023
+================================================================================
+
+ITEM 1. BUSINESS
+
+Tesla, Inc. designs, develops, manufactures and sells high-performance fully
+electric vehicles, energy storage systems and solar products, as well as 
+related services. We leverage our software expertise and custom silicon design 
+to deliver vehicles with performance, efficiency and reliability.
+
+FINANCIAL HIGHLIGHTS:
+- Total Revenue 2023: $81.46 billion (vs $60.57 billion in 2022)
+- Gross Profit: $12.59 billion (15.5% margin)
+- Operating Income: $3.69 billion
+- Net Income: $2.56 billion
+- Operating Cash Flow: $7.86 billion
+
+RISK FACTORS:
+1. Competition in the electric vehicle market is intensifying
+2. Our profitability and cash flow are heavily dependent on volume growth
+3. Supply chain disruptions could impact production and delivery schedules
+4. We are subject to significant government regulation and incentives
+5. Prices of lithium and other battery materials have increased
+
+RESULTS OF OPERATIONS:
+The following table shows our financial results for the years 2023, 2022, and 2021:
+
+                     2023          2022          2021
+Revenue (billions):  $81.46        $60.57        $47.52
+Gross Margin (%):    15.5%         27.1%         30.5%
+Operating Margin (%): 4.5%         6.7%          12.5%
+Net Margin (%):      3.1%          6.6%          8.2%
+
+Key metrics by quarter (2023):
+Q1: Revenue $23.32B, Operating Margin 11.4%
+Q2: Revenue $24.93B, Operating Margin 9.3%
+Q3: Revenue $25.18B, Operating Margin 2.7%
+Q4: Revenue $25.03B, Operating Margin 1.8%
+
+MANAGEMENT'S DISCUSSION AND ANALYSIS:
+
+The decrease in gross margin was primarily due to:
+- Lower average selling prices due to increased competition
+- Expansion into new markets with higher logistics costs
+- Increased per-unit depreciation from new manufacturing facilities
+
+Operating cash flow improved despite margin compression due to:
+- Improved working capital management
+- Increased accounts payable days
+- Better inventory turns
+
+FUTURE OUTLOOK:
+We expect to continue investing heavily in:
+- Expansion of manufacturing capacity
+- Development of new vehicle platforms
+- Energy storage and solar products
+- Artificial intelligence and autonomous driving capabilities
+
+We plan to increase production by approximately 20% in 2024 across all facilities.
+
+================================================================================

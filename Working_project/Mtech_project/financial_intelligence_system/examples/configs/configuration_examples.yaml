@@ -1,0 +1,238 @@
+# Configuration Examples
+# Copy and modify these configurations for different use cases
+
+# =============================================================================
+# 1. MINIMAL CONFIGURATION (FOR TESTING)
+# =============================================================================
+# File: config_minimal.yaml
+
+system:
+  name: "Financial Intelligence System - Minimal"
+  version: "1.0.0"
+  environment: "development"
+
+backend:
+  host: "0.0.0.0"
+  port: 8000
+  debug: true
+  workers: 1
+
+retrieval:
+  method: "hybrid"
+  hybrid_alpha: 0.5  # Weight for semantic search
+  hybrid_beta: 0.5   # Weight for keyword search
+  top_k: 3
+
+reasoning:
+  model_type: "distilled"  # Use lighter student model
+  max_tokens: 256
+
+evaluation:
+  enabled: true
+  threshold: 0.6
+  max_corrections: 1
+
+---
+
+# =============================================================================
+# 2. PRODUCTION CONFIGURATION (HIGH-PERFORMANCE)
+# =============================================================================
+# File: config_production.yaml
+
+system:
+  name: "Financial Intelligence System - Production"
+  version: "1.0.0"
+  environment: "production"
+
+backend:
+  host: "0.0.0.0"
+  port: 8000
+  debug: false
+  workers: 8
+  timeout: 30
+  max_content_length: 50  # MB
+
+retrieval:
+  method: "hybrid"
+  hybrid_alpha: 0.6  # Higher weight for semantic quality
+  hybrid_beta: 0.4
+  top_k: 10
+  cache_enabled: true
+  cache_ttl: 3600
+
+reasoning:
+  model_type: "teacher"  # Use more powerful teacher model
+  max_tokens: 1024
+  temperature: 0.7
+
+evaluation:
+  enabled: true
+  threshold: 0.8  # Higher threshold for production
+  max_corrections: 3
+
+database:
+  host: "localhost"
+  port: 5432
+  name: "financial_db"
+  pool_size: 20
+
+security:
+  enable_auth: true
+  api_key_required: true
+  rate_limiting: true
+  max_requests_per_minute: 100
+
+monitoring:
+  enabled: true
+  prometheus_port: 9090
+  metrics_enabled: true
+
+---
+
+# =============================================================================
+# 3. SEMANTIC SEARCH FOCUSED CONFIGURATION
+# =============================================================================
+# File: config_semantic.yaml
+
+system:
+  name: "Financial Intelligence System - Semantic Focus"
+  version: "1.0.0"
+
+retrieval:
+  method: "semantic"  # Pure semantic search
+  hybrid_alpha: 1.0
+  hybrid_beta: 0.0
+  top_k: 15
+  embedding_model: "sentence-transformers/all-mpnet-base-v2"
+  similarity_threshold: 0.5
+
+reasoning:
+  model_type: "teacher"  # More powerful reasoning
+  max_tokens: 1024
+
+evaluation:
+  enabled: true
+  threshold: 0.75
+
+---
+
+# =============================================================================
+# 4. BATCH PROCESSING CONFIGURATION
+# =============================================================================
+# File: config_batch.yaml
+
+system:
+  name: "Financial Intelligence System - Batch Processing"
+  version: "1.0.0"
+
+backend:
+  host: "0.0.0.0"
+  port: 8000
+  workers: 4
+
+batch:
+  enabled: true
+  max_parallel_queries: 4
+  queue_size: 100
+  timeout_per_query: 60
+  retry_on_failure: true
+  max_retries: 3
+
+retrieval:
+  method: "hybrid"
+  top_k: 5
+  cache_enabled: true
+
+reasoning:
+  model_type: "distilled"  # Lighter model for batch speed
+  max_tokens: 512
+
+evaluation:
+  enabled: true
+  threshold: 0.7
+  max_corrections: 2
+
+---
+
+# =============================================================================
+# 5. REAL-TIME INTERACTIVE CONFIGURATION
+# =============================================================================
+# File: config_realtime.yaml
+
+system:
+  name: "Financial Intelligence System - Real-time Interactive"
+  version: "1.0.0"
+
+backend:
+  host: "0.0.0.0"
+  port: 8000
+  workers: 2
+  timeout: 15
+
+retrieval:
+  method: "hybrid"
+  top_k: 7
+  cache_enabled: true
+  cache_ttl: 300  # 5 minutes
+
+reasoning:
+  model_type: "student"  # Fast student model
+  max_tokens: 256
+  temperature: 0.5
+
+evaluation:
+  enabled: true
+  threshold: 0.7
+  max_corrections: 2  # Quick corrections
+
+frontend:
+  streaming_enabled: true
+  live_updates: true
+  refresh_interval: 1000  # milliseconds
+
+---
+
+# =============================================================================
+# 6. RESEARCH / ANALYSIS CONFIGURATION
+# =============================================================================
+# File: config_research.yaml
+
+system:
+  name: "Financial Intelligence System - Research"
+  version: "1.0.0"
+
+retrieval:
+  method: "hybrid"
+  top_k: 20  # More documents for comprehensive analysis
+  cache_enabled: false  # No caching for fresh results
+
+reasoning:
+  model_type: "teacher"  # Highest quality reasoning
+  max_tokens: 2048  # Longer responses
+  temperature: 0.3  # More deterministic
+
+evaluation:
+  enabled: true
+  threshold: 0.8  # High threshold for research quality
+  max_corrections: 5  # More correction iterations
+
+analysis:
+  enable_detailed_explanations: true
+  include_all_reasoning_steps: true
+  return_confidence_intervals: true
+
+---
+
+# USAGE INSTRUCTIONS:
+#
+# 1. Copy the configuration file you need:
+#    cp config_production.yaml ../config/system_config.yaml
+#
+# 2. Modify parameters as needed for your use case
+#
+# 3. Start the system with the configuration:
+#    python3 main.py --config config/system_config.yaml
+#
+# 4. For Docker:
+#    docker-compose -f docker-compose.yml up
+#    (Update docker-compose.yml to use desired config file)
